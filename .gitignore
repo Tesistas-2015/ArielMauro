@@ -29,7 +29,7 @@
 *.aux
 *.toc
 *.out
-*.pdf
+main.pdf
 
 # OS generated files #
 ######################
