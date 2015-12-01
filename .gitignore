@@ -29,7 +29,6 @@
 *.aux
 *.toc
 *.out
-main.pdf
 
 # OS generated files #
 ######################
@@ -39,4 +38,16 @@ main.pdf
 .Spotlight-V100
 .Trashes
 ehthumbs.db
+
+main-blx.bib
+main.log
+main.out
+main.run.xml
+main.toc
+main.aux
+main.lof
+main.lot
+main.pdf
+main.synctex.gz
+
 
