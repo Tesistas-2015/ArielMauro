@@ -1,0 +1,229 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{abramoff2010retinal}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Abr{\`a}moff}{A.}%
+     {Michael~D}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Garvin}{G.}%
+     {Mona~K}{M.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sonka}{S.}%
+     {Milan}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{AMDGMKSM1}
+  \strng{fullhash}{AMDGMKSM1}
+  \field{labelyear}{2010}
+  \field{sortinit}{A}
+  \field{pages}{169\bibrangedash 208}
+  \field{title}{Retinal imaging and image analysis}
+  \field{volume}{3}
+  \field{journaltitle}{Biomedical Engineering, IEEE Reviews in}
+  \field{year}{2010}
+\endentry
+
+\entry{fraz2012blood}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Fraz}{F.}%
+     {Muhammad~Moazam}{M.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Remagnino}{R.}%
+     {Paolo}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hoppe}{H.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Uyyanonvara}{U.}%
+     {Bunyarit}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rudnicka}{R.}%
+     {Alicja~R}{A.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Owen}{O.}%
+     {Christopher~G}{C.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barman}{B.}%
+     {Sarah~A}{S.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{FMM+1}
+  \strng{fullhash}{FMMRPHAUBRAROCGBSA1}
+  \field{labelyear}{2012}
+  \field{sortinit}{F}
+  \field{number}{1}
+  \field{pages}{407\bibrangedash 433}
+  \field{title}{Blood vessel segmentation methodologies in retinal images--a
+  survey}
+  \field{volume}{108}
+  \field{journaltitle}{Computer methods and programs in biomedicine}
+  \field{year}{2012}
+\endentry
+
+\entry{marin2011new}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Mar{\'\i}n}{M.}%
+     {Diego}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aquino}{A.}%
+     {Arturo}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Geg{\'u}ndez-Arias}{G.-A.}%
+     {Manuel~Emilio}{M.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bravo}{B.}%
+     {Jos{\'e}~Manuel}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{MD+1}
+  \strng{fullhash}{MDAAGAMEBJM1}
+  \field{labelyear}{2011}
+  \field{sortinit}{M}
+  \field{number}{1}
+  \field{pages}{146\bibrangedash 158}
+  \field{title}{A new supervised method for blood vessel segmentation in
+  retinal images by using gray-level and moment invariants-based features}
+  \field{volume}{30}
+  \field{journaltitle}{Medical Imaging, IEEE Transactions on}
+  \field{year}{2011}
+\endentry
+
+\entry{perez2011improving}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Perez-Rovira}{P.-R.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zutis}{Z.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hubschman}{H.}%
+     {JP}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trucco}{T.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{PRA+1}
+  \strng{fullhash}{PRAZKHJTE1}
+  \field{labelyear}{2011}
+  \field{sortinit}{P}
+  \field{booktitle}{Engineering in Medicine and Biology Society, EMBC, 2011
+  Annual International Conference of the IEEE}
+  \field{pages}{2614\bibrangedash 2617}
+  \field{title}{Improving vessel segmentation in ultra-wide field-of-view
+  retinal fluorescein angiograms}
+  \field{year}{2011}
+\endentry
+
+\entry{zhao2015retinal}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Zhao}{Z.}%
+     {Yitian}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liu}{L.}%
+     {Yonghuai}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {Xiangqian}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harding}{H.}%
+     {Simon~P}{S.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zheng}{Z.}%
+     {Yalin}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Public Library of Science}%
+  }
+  \strng{namehash}{ZY+1}
+  \strng{fullhash}{ZYLYWXHSPZY1}
+  \field{labelyear}{2015}
+  \field{sortinit}{Z}
+  \field{number}{4}
+  \field{pages}{e0122332}
+  \field{title}{Retinal vessel segmentation: An efficient graph cut approach
+  with retinex and local phase}
+  \field{volume}{10}
+  \field{journaltitle}{PloS one}
+  \field{year}{2015}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

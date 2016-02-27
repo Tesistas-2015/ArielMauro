@@ -11,13 +11,129 @@
 \section{An\'alisis  de im\'agenes de la retina}
 
 	\subsection{Introducci\'on}
+	
+		\subsubsection{Anatom\'ia del ojo}
+	
+	La vasculatura retinal está compuesta por arterias y venas, que aparecen como características alargadas, con sus afluentes visiblimentes dentro de la imagen de la retina.
+Hay un amplio rango de vasos de anchos distintos, que van de uno a dos pixeles dependiendo del ancho del vaso y de la resolución de la imagen.
+Otras estructuras aparecen en la imagen de fondo de ojo ocular, incluido el límite de la retina, el disco óptico y patologías en la forma de manchas, lesiones brillantes y oscuras y exudados
+La orientación y nivel de gris de los vasos no cambia abruptamente, son locamente lineales y cambian gradualmente en intensidad a lo largo de su longitud. Los vasos pueden estar conectados y , desde la retina, en un forma o estructura de árbol binario. Sin embargo, la forma, el tamaño y nivel local de gris de los vasos sanguíneos puede variar enormemente.\cite{fraz2012blood}\\
+\\
+Las partes visibles del ojo incluyen la córnea transparente, la esclera normalmente blanca, el iris que da color al ojo, y una apertura en el ojo que se percibe negra denominada pupila. Un rayo de luz, luego de pasar a través de la córnea, que parcialmente enfoca la imagen, pasa por la cámara anterior, la pupila, el lente que enfoca aún más la imágen, la vítrea y por último es enfocado en la retina. La retina en sí está sostenida por el epitelio pigmentario retinal, el cual normalmente es opaco, la coroide y la esclera.
+El suministro de sangre de la retina es principalmente a traves de la coroides y secundariamente por la vasculatura de la retina que reposa sobre la retina. Es mas simple dividir la retina y la coroide en las siguientes capas:
+\begin{enumerate}[1.]
+    \item Membrana limitante interna.
+    \item Capa de fibras nerviosas (los axones de las células ganglionares, transmiten las señales visuales al núcleo geniculado lateral y luego a la corteza visual).
+    \item Capa de células ganglionares (los cuerpos de las células ganglionares).
+    \item	Capa plexiforme interna (los axones de las células bipolares).
+	\item Capa nuclear interna (los cuerpos de las células bipolares y horizontales).
+	\item Capa plexiforme externa (las dendritas de las células horizontales y los segmentos internos de las células fotorreceptoras conos y bastones).
+	\item Capa nuclear externa (cuerpo de las células--segmentos externos--de las células fotorreceptoras).
+	\item Membrana limitante externa.
+	\item Epitelio pigmentario.
+	\item Membrana de Bruch .
+	\item Coroide capilar (capilares de la coroide)
+	\item Plexus de la coroide.
+ 
+\end{enumerate}
 
+
+
+La mayoría de las capas de la retina pueden observarse en las imágenes de tomografía de coherencia óptica.Sin embargo, la captura de imágenes de la coroide capilar y el plexus de la coroide, no puede realizarse aún con dispositivos disponibles comercialmente, aunque sí para investigación.\cite{abramoff2010retinal}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{./Figures/retina.png}
+\label{fig:retina}
+\caption{( A) lustración de la anatomía del ojo y capas de la retina  Vista de la sección transversal
+del ojo y sus estructuras principales. ( B ) Representación esquemática de las capas celulares de la retina}
+\end{figure}
+
+
+
+			\subsubsection{Enfermedades que la aquejan}
+			
+La detección automática y el análisis de la vasculatura   puede asistir en la implementación de programas de detección de retinopatía diabética, evaluación de retinopatía precoz, detección de regiones avascular foveal, estrechamiento arterial, la relación entre la tortuosidad de los vasos, retinopatía hipertensiva, la medida del diámetro de los vasos en relación con la hipertensión , la cirugía láser asistida por computadora.\cite{fraz2012blood}\\
+
+A continuación una breve reseña de las enfermedades más relevantes que pueden ser estudiadas a través de la captura y el análisis de imágenes del ojo.
+
+\begin{description}
+    \item[Diabetes:] Diabetes melitus, de acuerdo a la actual definición de la Organización Mundial de la Salud, es típicamente diagnosticada si un paciente en ayuna tiene un nivel de glucosa plasmática superior a 7.0 mmol/l. Sus causas no se comprenden por completo, pero la herencia genética, la obesidad, y un estilo de vida sedentario incrementan el riesgo de desarrollar diabetes. Los tratamientos consisten principalmente en cambios de dieta, administración de insulina y/o drogas anti-hipoglucémicas. Se sabe que la hiperglucemia, presencia elevada de glucosa en la sangre, daña los vasos sanguíneos cortos y largos, como también células nerviosas, por lo que daña los riñones, el corazón, el cerebro y los ojos, resultando en una complicación de la retina llamada retinopatía diabética.
+    \item[Retinopatía diabética:] La retinopatía diabética (DR) es una complicación de la diabetes melitus y la segunda causa más común de ceguera y pérdida visual en U.S., y la más importante causa en la población en edad de trabajo. El número de pacientes con diabetes en U.S., está incrementando rápidamente y en 2007 alcanzó 23.5 millones. Hay una abundante evidencia de que la ceguera y la pérdida visual en estos pacientes puede ser prevenida a través de exámenes anuales y  diagnóstico temprano. En los ojos, la hiperglucemia daña las paredes de los vasos de la retina, la cual puede llevar a:
+Isquemia, resultando en el crecimiento de nuevos vasos sanguíneos, los cuales pueden subsecuentemente sangrar y/o causar desprendimiento de la retina, condición llamada retinopatía diabética proliferativa;
+caída de la barrera sangre-retina, conduciendo a derrames, edema macular diabético (DME) y daños en los fotorreceptores.
+La causa principal de pérdida visual en personas con diabetes es DME, la cual es la más común en diabetes de tipo 2. La caída de la barrera sangre-retina causa el derrame de los capilares dilatados hiper permeables y microaneurismas hacia los tejidos de la rutina intracelular y extracelular con una subsecuente acumulacion de fluido. El edema macular clínicamente significativo ocurre si hay espesamiento de la retina involucrando el centro de la retina o el área en un radio de 500 um, si hay exudaciones fuertes en o dentro de 500 um del centro con espesamiento de la retina adyacente, o si hay una zona de espesamiento de la retina con una área igual o mayor al disco óptico, cualquier parte dentro del diámetro del disco de la retina. Esta definición del CSME generalmente hace referencia al nivel de umbral en el cual se considera realizar un tratamiento de fotocoagulación con láser. Mientras la pérdida visual ocurre cuando el edema macular involucra el centro visual, en menor grado DME puede causar deterioramiento visual.
+Está claro que DME afecta la estructura macular tanto a corto como a largo plazo. El derrama exudado en DME inicialmente entra en el citoplasma de las células de Muller, preferencialmente en la retina externa, aunque se ha encontrado que la acumulacion de fluido se extiende través de la mayoría de las capas maculares en etapas más avanzadas de DME. Los quistes predominantemente ocurren en la retina externa. A través del tiempo, los quistes tienden a explotar (fundirse ) y extenderse desde el exterior al interior de la retina. En estos casos, se produce atrofia o apoptosis en el tejido restante de la retina. Serios desprendimientos pueden ocurrir en el 20% de los casos de DME y no parece correlacionarse con agudeza visual. Exudaciones fuertes pueden ocurrir y tienden a estar ubicadas en el nivel de la capa plexiforme externa. Pacientes que hace tiempo tienen DME con disminución de agudeza visual muestran sensibilidad direccional de los fotorreceptores y densidad pigmentaria visual disminuidas.
+El control de la diabetes principalmente involucra la reducción de azúcar en sangre, a través de dietas, cambios en el estilo de vida y drogas antidiabéticas. Si DR está presente,  el control de CSME y DR proliferativa a través de fotocoagulación con láser, la administración de factores de crecimiento anti-vascular, y de los esteroides se ha demostrado en ensayos clínicos aleatorios para prevenir la ceguera y la pérdida visual.
+    \item[Degeneración macular asociada a la edad(AMD, age-related macular degeneration):]La degeneración macular asociada a la edad es la causa más común de pérdida visual en los Estados Unidos y es un problema en crecimiento de la salud pública. Actualmente, casi 7.3 millones de Norteamericanos (6.12% de los Norteamericanos de 40 o más años) tiene alguna clase de AMD, y la AMD es la causa de ceguera del 54% de las personas ciegas de Norteamerica. La AMD severa reduce la probabilidad de obtener empleo en un 61% y el salario en un 39%, mientras que la AMD leve reduce estos en un 44% y 32% respectivamente. El costo anual generado por la AMD en los Estados Unidos se estima en 30 billones. Se espera que la incumbencia de la AMD se duplique en los siguientes 25 años. Las dos formas mas prevalecientes son la AMD húmeda y la AMD seca, de las cuales la segunda típicamente conlleva a una pérdida de la agudeza visual gradual. La AMD húmeda, también llamada neurovascularización coroidal (CNV), es la amenza visual mas importante, caracterizada por el crecimiento interno de la estructura vascular coroidal hacia la macula acompañado por un incremento en la permeabilidad vascular. El incremento en la permeabilidad vascular lleva a un agrupamiento anormal de fluidos dentro o por debajo de la retina que causa disfunción visual cuando involucra el centro de la mácula. El curso natural de la CNV es el rápido deterioro de la agudeza, cicatrices en el epitelio pigmentario, y pérdida visual permanente o ceguera. El progreso de la AMD seca puede ser aminorado en muchos pacientes a través de suplementos dietarios, mientras que la pérdida visual por la AMD húmeda es tratada con administración intravítrea de factor de crecimiento anti-vascular.
+     \item[Glaucoma:] Glaucoma es considerada la tercera causa principal de ceguera en los Estados Unidos, caracterizada por un daño gradual del nervio óptico y por la pérdida de campo de visión que esto genera. El diagnóstico temprano y el tratamiento óptimo han demostrado minimizar el riesgo de pérdida de visión por glaucoma. Es principalmente una neuropatía, no una retinopatía, y actúa en la retina dañando las células ganglionares y sus axones. La marca distintiva del glaucoma es el ahuecamiento del disco óptico, que es la manifestación visible de la estructura 3D de la cabeza del nervio óptico. El disco óptico puede ser capturado en imágenes de 2D ya sea a través de biomicroscopía estéreo indirecta o con fotografías color de fondo de ojos estero. La relación entre las áreas de la taza del disco óptico y de la superficie del anillo neurorretiniano en estas imágenes, llamada “cup-to-disc ratio”, es un indicador estructural importante para medir las presencia y el avance del glaucoma. El glaucoma es típicamente tratado con gotas que disminuyen la presión ocular, y en casos de reincidencia con cirugía.
+     \item[Enfermedades cardiovasculares:] Las enfermedades cardiovasculares se manifiestan en la retina de diferentes maneras. La hipertensión y la arteriosclerosis causan cambios en la relación entre el diámetro de las arterias y de las venas de la retina, conocido como relación arteria/vena. Una caída en la relación A/V, por ejemplo, adelgazamiento de las arterias y engrosamiento de las venas, está asociado con un riesgo de accidente cerebro-vascular o infarto en el miocardio. La hipertensión puede también involucrar isquemia en la retina, lo que causa infartos en la misma que se ven como copos de algodón e infartos en la coroide que son visibles como puntos blancos profundos. Además, las enfermedades vasculares sistémicas pueden causar oclusiones arteriales y venosas, conocidas como oclusiones arteriales centrales y de brazos y oclusiones venosas centrales y de brazos. \cite{fraz2012blood}
+\end{description}
+ 
+ 
+ 
+  
+ 
+
+			\subsubsection{Modalidades de imagen}
+			
+			OCT
+			
+			Fondo de ojo
+			 
+			angiogramas fluorescentes
+			
+
+
+Existen varias modalidades de imágenes que permiten analizar el ojo. A continuación se describirán entre los métodos más comunes: el método de captura, elementos necesarios, si son o no invasivas al organismo y su costo.
+\begin{itemize}
+\item Fondo de ojo: Para realizar la captura del fondo de ojo, se dilata la pupila con fármacos que se depositan en forma de gotas en la superficie ocular; así, el oftalmólogo puede ver con facilidad el interior del globo ocular con un aparato que se llama oftalmoscopio. El oftalmoscopio consiste en un aparato formado por una serie de espejos y cristales que alumbran la retina del ojo sin que la luz se refleje. Si no fuese por el oftalmoscopio la luz provocaría destellos y no se podría ver el fondo de ojo de manera correcta, algo parecido a lo que sucede cuando el flash de una cámara de fotos saca los ojos en color rojo. Esta modalidad no es invasiva, y su costo es menor a la angiografía y la OCT dado que la cámara que se necesita para capturar la imagen del ojo es una cámara digital convencional.
+\item Angiografía Fluorescente: Se le administrarán gotas oculares que hacen dilatar la pupila. Se debe colocar la barbilla sobre un apoya-mentón y la frente contra una barra de soporte para mantener la cabeza quieta durante el examen. Se tomarán fotografías del interior del ojo. Después de tomar el primer grupo de imágenes, se inyecta un tinte llamado fluoresceína, dentro del  torrente sanguíneo. En la mayoría de los casos, se inyecta en la parte interior del codo. Un dispositivo similar a una cámara toma fotografías a medida que el tinte va pasando a lo largo de los vasos sanguíneos en la parte posterior del ojo. Esta modalidad es invasiva dado que requiere la inyección de  un tinte fluorescente en el organismo, y es más costoso debido a que se requiere un dispositivo que capte la fluorescencia generada por el tinte inyectado.
+\item OCT: El OCT es una técnica de imagen tomográfica óptica, no invasiva, que permite visualizar tejidos oculares con un nivel de resolución micrométrico, diez veces mayor que al alcanzado por técnicas ultrasonográficas. Esto permite apreciar cambios sutiles de los diferentes tejidos del ojo casi a nivel celular, permitiéndonos entender mejor los procesos patológicos subyacentes a diferentes enfermedades y ayudándonos en el diagnóstico de patologías oculares, principalmente de la retina y el nervio óptico. Para realizar la OCT se aplican  gotas oculares para dilatar la pupila, luego se sientá frente a la máquina de TCO y descansa  la cabeza del paciente en un soporte para mantenerla inmóvil. El equipo escaneará su ojo sin tocarlo. El escaneo dura entre 10 y 15 minutos. Después del examen, sus ojos pueden permanecer sensibles a la luz durante varias horas. Esta tecnología se basa en un principio óptico complejo denominado interferometría, que utiliza una fuente de luz infrarroja que penetra en los tejidos oculares y se divide en varios haces de luz. Uno de ellos penetra en la retina y otro es captado por un espejo de referencia. En su trayectoria de regreso, ambos haces chocan entre sí generando unas “interferencias” que al ser captadas por un detector se traducen en una imagen en color que representa e indica el grosor de las de los tejidos estudiados. Los colores fríos, como el azul o el negro, se correlacionan con tejidos de menor grosor y los colores cálidos, como el rojo o blanco, con tejidos más gruesos. 
+Esta modalidad no es invasiva, pero su costo es bastante mayor a la imagen de fondo de ojo, dado que utiliza un tomógrafo para realizar el proceso.
+\end{itemize}
+	
 	\subsection{Angiograf\'ias con fluoresce\'ina}
+
+cómo se capturan?? , mostrar algunos ejemplos,
+
+	
+	La secuencia de angiogramas fluorescentes involucra la inyección de un tinte fluorescente por vía intravenosa. Diferentes porciones de la vasculatura se vuelven visibles en diferentes momentos , a medida que el tinte pasa a través del sistema vascular.
+La angiografía con fluoresceína presenta varias peculiaridades . El desafío principal es que, a medida que el tinte de contraste  perfunde en la retina, diferentes segmentos de la vasculatura aparecen, por lo que el contenido de la imagen varía constantemente.
+Pueden ocurrir oclusiones debido a los párpados y las pestañas, algunas lesiones pueden parecerse a los vasos creando falsos positivos y los vasos periféricos aparecen a menudo distorsionados y difusos. \cite{perez2011improving}
+
+qué ventajas/desventajas tienen comparadas con otras modalidades (sobre todo con las de fondo de ojo),
+ES invasivo, mas costoso
+
+explicar en qué contextos se las usan, para el diagnóstico de cuáles enfermedades, y qué cosas se ven en ellas.
+
 
 	\subsection{Herramientas computacionales para an\'alisis de agiograf\'ias con fluoresce\'ina}
 
 \section{Segmentaci\'on de vasos sangu\'ineos en FA}
 
 	\subsection{Necesidad}
+	La retinopatía diabética ( RD) es el líder en las patologías oftalmológicas y causante de ceguera entre las personas en edad de trabajar en los países desarrollados . Está provocada por complicaciones en la diabetes mellitus y , aunque los efectos de la diabetes no necesariamente implican el deterioro de la visión , el 2% de los pacientes afectados por este trastorno son ciegos y el 10% padecen  degradación de la visión después de 15 años de diabetes como consecuencia de complicaciones RD . La prevalencia estimada de diabetes por todos los grupos de edad en todo el mundo fue de 2,8 % en 2000 y 4,4 % en 2030 , lo que significa que el número total de pacientes con diabetes se prevé aumente de 171 millones en el  2000 a 366 millones en el 2030 .
+	A pesar de que la RD es una enfermedad incurable, la fotocoagulación láser puede prevenir la pérdida de la visión si es detectada en etapas tempranas. Sin embargo, los pacientes con RD no perciben ningún síntoma hasta que la pérdida de visión se desarrolla, por lo general en estadios de la enfermedad más adelantados, cuando el tratamiento es menos eficaz. Entonces, para garantizar que el tratamiento es recibido a tiempo, los pacientes diabéticos necesitan un examen anual de fondo de ojo. Sin embargo, esta acción preventiva involucra un enorme desafío para el Sistema de Salud debido  al gran número de pacientes que necesitan revisión oftalmológica. Por lo tanto, la RD también llega a ser un gran problema económico en la  Administración Pública ya que ,solo en U.S, el costo de las complicaciones oftalmológicas crónicas causada por la diabetes excedió un billón de dólares en 2007. 
+El uso de imágenes digitales para diagnosticar enfermedades del ojo podría ser explotado por sistemas de computadora para la detección temprana de RD. Un sistema que podría ser  usado por personal no experto para filtrar casos de pacientes no afectados por enfermedades, haría reducir la carga de trabajo del especialista e incrementaria la efectividad de los protocolos de prevención y os tratamientos terapéuticos en etapas tempranas. Además, esto sería también un resultado beneficio en el Sistema de Salud, ya que el costo-efectividad asociado a la detección temprana de enfermedades da lugar a un ahorro de costos notables.
+Ya que las anomalías vasculares son una de las manifestaciones de la RD, la evaluación automática de los vasos sanguíneos de fondo de ojo es necesario para automatizar la detección de RD. Como un paso previo, la evaluación de los vasos demanda la segmentación del árbol vascular para su posterior procesamiento. El conocimiento de la ubicación de los vasos sanguíneos para reducir el número de falsos positivos en la detección de microaneurismas y hemorragias. Además, estas aplicaciones motivadas por la automática detección temprana de RD, la segmentación del árbol vascular resulta útil para otros propósitos clínicos: evaluación de retinopatía prematura, estrechamiento arterial, tortoise en los vasos para caracterizar retinopatía hipertensiva, medida del diámetro de los vasos para diagnosticar hipertensión y enfermedades cardiovasculares y cirugía láser por computación asistida, entre otras.
+Por otro lado, el árbol vascular también sirve para ser usado como información valiosa para ubicar otras características del fondo de ojo como el disco óptico y la fóvea. \cite{marin2011new}
 
 	\subsection{M\'etodos existentes}
+
+Supervisados
+
+No supervisados
+
+
+En general, existen tres principales desafios que deben abordarse en el automatizado de la segmentación de vasos de la retina :
+\begin{itemize}
+\item En primer lugar, la calidad de imagen es a menudo un problema de interés para el desarrollo de la segmentación automatizada. Técnicas de segmentación existentes todavía se enfrentan a desafíos en la segmentación de toda la vasculatura con precisión , debido al poco contraste, fondos no homogéneos y la presencia de ruido durante la adquisición de imagen.
+\item En segundo lugar, la complejidad de la estructura vascular (por ejemplo, múltiples escalas y orientaciones), el alto grado de variación anatómica a través de la población y la complejidad de los tejidos / órganos de alrededores
+, plantean desafíos significativos en segmentación de los vasos. El realce de los vasos es
+una forma efectiva para facilitar la segmentación:  pero comúnmente usar filtros de realce no es en términos de rendimiento.
+\item En tercer lugar, un eficiente y robusto modelo de segmentación  es deseable. Se ha vuelto muy difícil
+para elegir un modelo óptimo, o para identificar un único conjunto de parámetros óptimos para un método de segmentación en particular que trabaje a través de una variedad de datos.\cite{zhao2015retinal}
+\end{itemize}
