@@ -45,8 +45,14 @@ singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespac
 \addbibresource{example.bib} % The filename of the bibliography
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 \usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+
 \usepackage{float}
 \usepackage{enumerate}
+\LetLtxMacro\itemold\item
+\renewcommand{\item}{\itemindent1cm\itemold}
+
 
 %----------------------------------------------------------------------------------------
 %	THESIS INFORMATION
@@ -74,7 +80,7 @@ singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespac
 \hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
 \hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
 \hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
-
+\setcounter{tocdepth}{2}
 \begin{document}
 
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
