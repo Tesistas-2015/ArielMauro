@@ -222,6 +222,53 @@
   \field{year}{2011}
 \endentry
 
+\entry{wessel2012peripheral}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Wessel}{W.}%
+     {Matthew~M}{M.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nair}{N.}%
+     {Nandini}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aaker}{A.}%
+     {Grant~D}{G.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ehrlich}{E.}%
+     {Joshua~R}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {D'Amico}{D.}%
+     {Donald~J}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kiss}{K.}%
+     {Szil{\'a}rd}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {BMJ Publishing Group Ltd.}%
+  }
+  \strng{namehash}{WMM+1}
+  \strng{fullhash}{WMMNNAGDEJRDDJKS1}
+  \field{labelalpha}{Wes+12}
+  \field{sortinit}{W}
+  \field{pages}{bjophthalmol\bibrangedash 2011}
+  \field{title}{Peripheral retinal ischaemia, as evaluated by ultra-widefield
+  fluorescein angiography, is associated with diabetic macular oedema}
+  \field{journaltitle}{British Journal of Ophthalmology}
+  \field{year}{2012}
+\endentry
+
 \entry{zhao2015automated}{article}{}
   \name{author}{6}{}{%
     {{}%
