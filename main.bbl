@@ -39,7 +39,7 @@
   }
   \strng{namehash}{AMDGMKSM1}
   \strng{fullhash}{AMDGMKSM1}
-  \field{labelyear}{2010}
+  \field{labelalpha}{AGS10}
   \field{sortinit}{A}
   \field{pages}{169\bibrangedash 208}
   \field{title}{Retinal imaging and image analysis}
@@ -83,7 +83,7 @@
   }
   \strng{namehash}{ESM+1}
   \strng{fullhash}{ESMEAFNSKHMFA1}
-  \field{labelyear}{2011}
+  \field{labelalpha}{ES+11}
   \field{sortinit}{E}
   \field{booktitle}{2011 IEEE International Symposium on: IEEE}
   \field{title}{Segmentation of diabetic macular edema in fluorescein
@@ -134,7 +134,7 @@
   }
   \strng{namehash}{FMM+1}
   \strng{fullhash}{FMMRPHAUBRAROCGBSA1}
-  \field{labelyear}{2012}
+  \field{labelalpha}{Fra+12}
   \field{sortinit}{F}
   \field{number}{1}
   \field{pages}{407\bibrangedash 433}
@@ -173,7 +173,7 @@
   }
   \strng{namehash}{MD+1}
   \strng{fullhash}{MDAAGAMEBJM1}
-  \field{labelyear}{2011}
+  \field{labelalpha}{Mar+11}
   \field{sortinit}{M}
   \field{number}{1}
   \field{pages}{146\bibrangedash 158}
@@ -212,7 +212,7 @@
   }
   \strng{namehash}{PRA+1}
   \strng{fullhash}{PRAZKHJTE1}
-  \field{labelyear}{2011}
+  \field{labelalpha}{PR+11}
   \field{sortinit}{P}
   \field{booktitle}{Engineering in Medicine and Biology Society, EMBC, 2011
   Annual International Conference of the IEEE}
@@ -260,8 +260,8 @@
   }
   \strng{namehash}{ZY+1}
   \strng{fullhash}{ZYMIJPDGBNAHSPZY1}
-  \field{labelyear}{2015}
-  \field{extrayear}{1}
+  \field{labelalpha}{Zha+15}
+  \field{extraalpha}{1}
   \field{sortinit}{Z}
   \field{title}{Automated detection of vessel abnormalities on fluorescein
   angiogram in malarial retinopathy}
@@ -303,8 +303,8 @@
   }
   \strng{namehash}{ZY+1}
   \strng{fullhash}{ZYLYWXHSPZY1}
-  \field{labelyear}{2015}
-  \field{extrayear}{2}
+  \field{labelalpha}{Zha+15}
+  \field{extraalpha}{2}
   \field{sortinit}{Z}
   \field{number}{4}
   \field{pages}{e0122332}
