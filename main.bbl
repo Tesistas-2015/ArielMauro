@@ -145,6 +145,40 @@
   \field{year}{2012}
 \endentry
 
+\entry{hoover2000locating}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Hoover}{H.}%
+     {Adam}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kouznetsova}{K.}%
+     {Valentina}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goldbaum}{G.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{HAKVGM1}
+  \strng{fullhash}{HAKVGM1}
+  \field{labelalpha}{HKG00}
+  \field{sortinit}{H}
+  \field{number}{3}
+  \field{pages}{203\bibrangedash 210}
+  \field{title}{Locating blood vessels in retinal images by piecewise threshold
+  probing of a matched filter response}
+  \field{volume}{19}
+  \field{journaltitle}{Medical Imaging, IEEE Transactions on}
+  \field{year}{2000}
+\endentry
+
 \entry{marin2011new}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -182,6 +216,34 @@
   \field{volume}{30}
   \field{journaltitle}{Medical Imaging, IEEE Transactions on}
   \field{year}{2011}
+\endentry
+
+\entry{patel2014ultra}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Patel}{P.}%
+     {Mrinali}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kiss}{K.}%
+     {Szilard}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {LWW}%
+  }
+  \strng{namehash}{PMKS1}
+  \strng{fullhash}{PMKS1}
+  \field{labelalpha}{PK14}
+  \field{sortinit}{P}
+  \field{number}{3}
+  \field{pages}{213\bibrangedash 220}
+  \field{title}{Ultra-wide-field fluorescein angiography in retinal disease}
+  \field{volume}{25}
+  \field{journaltitle}{Current opinion in ophthalmology}
+  \field{year}{2014}
 \endentry
 
 \entry{perez2011improving}{inproceedings}{}
