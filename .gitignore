@@ -1,3 +1,10 @@
+Chapters/Chapter2.fdb_latexmk
+Chapters/Chapter2.fls
+main.fdb_latexmk
+main.fls
+main.synctex.gz
+
+
 # Compiled source #
 ###################
 *.com
