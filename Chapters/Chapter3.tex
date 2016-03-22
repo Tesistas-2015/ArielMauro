@@ -55,7 +55,32 @@ Para la reducci\'on de ruido nos enfocamos en encontrar filtros que nos permitie
 En pos de exponer de manera adecuada los resultados obtenidos de los experimentos realizados proponemos graficar los mismos pero no sin antes explicar como se obtuvieron.\\
 \\En todos los casos la metodolog\'ia que se utiliz\'o fu\'e realizar pruebas exhaustivas variando dos par\'ametros: cantidad de iteraciones de los filtros y el tamaño de ventana de la remoci\'o de fondo.\\
 \\En ambos casos se relev\'o un rango que se considero suficiente dado que luego de el límite establecido se noto que a grandes pasos los resultados solo deca\'ian en calidad.\\
-\\Dada la naturaleza de los experimentos decidimos que la mejor manera de mostrar los resultados era un mapa de calor que podemos ver en la FIGURAX y para poder visualizar mejor el comportameniento en la zona de calor mas intenso aislamos la regi\'on y lo graficamos en tres dimensiones como se puede apreciar en la FIGURAY.\\
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=1\textwidth]{./Figures/AllDataThermalAnisodiff.png}
+        \caption{Mapa completo}
+        \label{fig:thermalforanisodiffwithmediana}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.48\textwidth}
+        \includegraphics[width=1\textwidth]{./Figures/CenteredThermalAnisodiff.png}
+        \caption{Centrado en la zona mas intensa}
+        \label{fig:thermalforanisodiffwithmedianacentered}
+  \end{subfigure}
+	\label{fig:thermalfigure}
+	\caption{Mapa de calor utilizando Mediana y Filtro Anisotr\'opico}
+\end{figure}
+
+Dada la naturaleza de los experimentos decidimos que la mejor manera de mostrar los resultados era un mapa de calor(Figura \ref{fig:thermalforanisodiffwithmediana}) y para poder visualizar mejor el comportameniento en la zona de calor mas intenso aislamos la regi\'on (Figura \ref{fig:thermalforanisodiffwithmedianacentered}) y lo graficamos en tres dimensiones (Figura \ref{fig:centeredregionthermal}).\\
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[width=0.75\textwidth]{./Figures/FiguraEvaluacionMaximosAnisodiff.png}
+  \caption{Regi\'on \'optima graficada en tres dimensiones}
+  \label{fig:centeredregionthermal}
+\end{figure}
+
 
 FALTAN EXPERIMENTOS:
 \begin{description}
