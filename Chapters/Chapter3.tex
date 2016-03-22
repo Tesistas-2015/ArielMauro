@@ -29,7 +29,7 @@ Como objetivos principales del preprocesamiento podemos destacar:
 
 Luego de realizar un an\'alisis de investigaci\'on acerca de los algoritmos de preprocesamiento existentes encontramos que aquellos que mejor se adaptaban a las necesidades de nuestra casu\'istica eran aquellos que respetaban los bordes al suavizar la im\'agen.\\
 \\
-Por un lado analizamos los algoritmos mas adecuados para la eliminaci\'on del fondo de la im\'agen, para este fin decidimos analizar tanto la mediana como la media. Por el otro, buscamos algoritmos para la reducci\'on de ruido para im\'agenes de angiodraf\'ia fluorescente y decidimos quedarnos con el algoritomo de difusi\'on anisotr\'opica[PONER REFERENCIA] y el filtro de coherencia[PONER REFERENCIA].
+Por un lado analizamos los algoritmos mas adecuados para la eliminaci\'on del fondo de la im\'agen, para este fin decidimos analizar tanto la mediana como la media. Por el otro, buscamos algoritmos para la reducci\'on de ruido para im\'agenes de angiodraf\'ia fluorescente y decidimos quedarnos con el algoritomo de difusi\'on anisotr\'opica y el filtro de coherencia.
 
 \subsubsection{Remoci\'on fondo}
 
@@ -43,7 +43,7 @@ Para la remoci\'on de fondo se utilizaron dos filtros diferentes, por un lado el
 \subsubsection{Reducci\'on de ruido}
 
 Para la reducci\'on de ruido nos enfocamos en encontrar filtros que nos permitieran suavizar y eliminar ruido pero siempre intentando no perder los borde y objetos de inter\'es de la imagen. Para esto buscamos filtros que puedan orientarse en las direcciones de los bordes y de esta manera mantenerlos con contrastes altos\\
-\\En nuestra b\'usqueda encontramos varios algoritmos matem\'aticos que apuntaban en esta direcci\'on como el filtro gaussiano pero determinamos que no estaban plenamente enfocados en mantener las estructuras sino mas bien que esto era una consecuencia de su naturaleza. Sobre el final de la misma, y a trav\'es de la lectura de algunas investigaciones (PONER CITAS) descubrimos el filtro de difusi\'on anisotr\'opica \cite{perona1990scale} y el filtro de coherencia (CITA!!).
+\\En nuestra b\'usqueda encontramos varios algoritmos matem\'aticos que apuntaban en esta direcci\'on como el filtro gaussiano pero determinamos que no estaban plenamente enfocados en mantener las estructuras sino mas bien que esto era una consecuencia de su naturaleza. Sobre el final de la misma, y a trav\'es de la lectura de algunas investigaciones descubrimos el filtro de difusi\'on anisotr\'opica \cite{perona1990scale} y el filtro de coherencia \cite{weickert1999coherence}.
 
 \begin{description}
   \item[Difusi\'on anisotr\'opica:]

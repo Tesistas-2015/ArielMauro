@@ -313,6 +313,29 @@
   \field{year}{2011}
 \endentry
 
+\entry{weickert1999coherence}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Weickert}{W.}%
+     {Joachim}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{WJ1}
+  \strng{fullhash}{WJ1}
+  \field{labelalpha}{Wei99}
+  \field{sortinit}{W}
+  \field{number}{2-3}
+  \field{pages}{111\bibrangedash 127}
+  \field{title}{Coherence-enhancing diffusion filtering}
+  \field{volume}{31}
+  \field{journaltitle}{International Journal of Computer Vision}
+  \field{year}{1999}
+\endentry
+
 \entry{wessel2012peripheral}{article}{}
   \name{author}{6}{}{%
     {{}%
