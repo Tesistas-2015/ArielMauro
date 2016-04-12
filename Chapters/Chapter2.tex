@@ -84,12 +84,6 @@ La retinopatía  malaria (RM) ha sido identificada como un signo clínico import
 
 			\subsubsection{Modalidades de imagen}
 
-La vasculatura retinal está compuesta por arterias y venas que aparecen como estructuras alargadas, con sus afluentes visibles dentro de la imagen de la retina.
-Los anchos de los vasos son muy variados y van de uno a veinte pixels dependiendo del ancho del vaso y de la resolución de la imagen.
-\\
-La orientación y nivel de gris de los vasos no cambia abruptamente, son localmente lineales y cambian gradualmente en intensidad a lo largo de su longitud. Los vasos pueden estar conectados y, en la retina, formando una estructura similar a un árbol binario. Sin embargo, la forma, el tamaño y el nivel local de gris de los vasos sanguíneos puede variar enormemente.
-\\
-La detección automática de enfermedades y el análisis de imagenes de la vasculatura   puede asistir en la implementación de programas de detección de retinopatía diabética, evaluación de retinopatía precoz, detección de regiones avascular foveal, estrechamiento arterial, la relación entre la tortuosidad de los vasos, retinopatía hipertensiva, la medida del diámetro de los vasos en relación con la hipertensión , la cirugía láser asistida por computadora.\cite{fraz2012blood}\\
 
 
 Existen varias modalidades de imágenes que permiten analizar el ojo. A continuación se describirán entre los métodos más comunes: el método de captura, elementos necesarios, si son o no invasivas al organismo y su costo.
@@ -102,51 +96,81 @@ Existen varias modalidades de imágenes que permiten analizar el ojo. A continua
 
 \item[OCT:] El OCT es una técnica de imagen tomográfica óptica que permite visualizar tejidos oculares con un nivel de resolución micrométrico, diez veces mayor que al alcanzado por técnicas ultrasonográficas. Esto permite apreciar cambios sutiles de los diferentes tejidos del ojo casi a nivel celular, permitiéndonos entender mejor los procesos patológicos subyacentes a diferentes enfermedades y ayudándonos en el diagnóstico de patologías oculares, principalmente de la retina y el nervio óptico. 
 Esta tecnología se basa en un principio óptico complejo denominado interferometría, que utiliza una fuente de luz infrarroja que penetra en los tejidos oculares y se divide en varios haces de luz. Uno de ellos penetra en la retina y otro es captado por un espejo de referencia. En su trayectoria de regreso, ambos haces chocan entre sí generando unas “interferencias” que al ser captadas por un detector se traducen en una imagen en color que representa e indica el grosor de las de los tejidos estudiados. Los colores fríos, como el azul o el negro, se correlacionan con tejidos de menor grosor y los colores cálidos, como el rojo o blanco, con tejidos más gruesos.
-Esta modalidad no es invasiva, pero su costo es bastante mayor a la imagen de fondo de ojo, dado que utiliza un tomógrafo para realizar el proceso.
+Esta modalidad no es invasiva, pero su costo es bastante mayor a la imagen de fondo de ojo, dado que utiliza un tom\'ografo para realizar el proceso.
 \end{description}
 
-	\subsection{Angiograf\'ias con fluoresce\'ina}
+	\subsubsection{Angiograf\'ias con fluoresce\'ina}
 
 	
-Desde su introducción en 1960, la angiografía fluorescente ha sido una herramienta fundamental en el diagnóstico y tratamiento de enfermedades de la retina, a menudo ofreciendo una idea de la presencia, actividad y gravedad de enfermedades no apreciables a través de solo la examinación clínica.\cite{patel2014ultra}
+Desde su introducci\'on en 1960, la angiograf\'ia fluorescente ha sido una herramienta fundamental en el diagn\'ostico y tratamiento de enfermedades de la retina, a menudo ofreciendo una idea de la presencia, actividad y gravedad de enfermedades no apreciables a trav\'es de solo la examinaci\'on cl\'inica.\cite{patel2014ultra}
 \\
 
-La fluorescencia es la propiedad de ciertas moléculas de emitir luz de una longitud de onda superior cuando son
-estimuladas por una luz de menor longitud de onda. El pico de excitación de la fluoresceína es de, aproximadamente,490 nm (en la parte azul del espectro) y representa la máxima absorción de energía lumínica por la fluoresceína. Las moléculas estimuladas por esta longitud de onda son excitadas hasta un nivel de energía superior y emiten luz de aproximadamente 530 nm (amarillo-verde; fig. 14.14).
-
-poner img
+La fluorescencia es la propiedad de ciertas mol\'eculas de emitir luz de una longitud de onda superior cuando son
+estimuladas por una luz de menor longitud de onda. El pico de excitaci\on de la fluoresce\'ina es de, aproximadamente, 490 nm (en la parte azul del espectro) y representa la m\'axima absorci\'on de energ\'ia lum\'inica por la fluoresce\'ina. Las mol\'eculas estimuladas por esta longitud de onda son excitadas hasta un nivel de energ\'ia superior y emiten luz de aproximadamente 530 nm \ref{fig:wavechanges1}.
 
 
+%\begin{figure}[H]
+%\centering
+%\includegraphics[height=5cm]{./Figures/wavechanges.pdf}
+%\label{fig:wavechanges}
+%\caption{ Longitud de onda en los estados de exitaci\'on y emisi\'on de la fluoresc\'ina.}
+%\end{figure}
 
-
-Durante la captura de las angiaografias fluorecentes se le administran al paciente gotas oculares que hacen dilatar la pupila. Se debe colocar la barbilla sobre un apoya-mentón y la frente contra una barra de soporte para mantener la cabeza quieta durante el examen. Se toman fotografías del interior del ojo . Después de tomar el primer grupo de imágenes, se inyecta un tinte llamado fluoresceína, dentro del  torrente sanguíneo. En la mayoría de los casos, se inyecta en la parte interior del codo. Un dispositivo similar a una cámara, denominada angiógrafo, toma fotografías a medida que el tinte va pasando a lo largo de los vasos sanguíneos en la parte posterior del ojo.El contenido sanguíneo mezclado con la fluoresceína produce una emisión intensa de luz que permite el registro fotográfico de los vasos de la retina y las coroides. Proporciona excelentes imágenes del árbol vascular.
 
 \begin{figure}[H]
-\centering
-\includegraphics{./Figures/fluores.jpg}
-\label{fig:retina}
-\caption{( A) lustración de la anatomía del ojo y capas de la retina  Vista de la sección transversal
-del ojo y sus estructuras principales. ( B ) Representación esquemática de las capas celulares de la retina}
+  \centering
+	\begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=1\textwidth]{./Figures/wavechanges.pdf}
+        \caption{Longitud de onda en los estados de exitaci\'on y emisi\'on de la fluoresc\'ina.}
+        \label{fig:wavechanges1}
+    \end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=1\textwidth]{./Figures/fluores.jpg}
+        \caption{Proceso de administraci\'on de la fluoresce\'ina.}
+        \label{fig:af2}
+    \end{subfigure}
+    \caption{Administraci\'on y reacci\'on de la fluoresce\'ina.}
 \end{figure}
 
-Se utilizan filtros de dos tipos para asegurarse de que la luz azul entra en el ojo y sólo la luz amarillo-verde entra en la cámara (fig. 14.18).
+
+
+Durante la captura de las angiograf\'ias fluorecentes se le administran al paciente gotas oculares que hacen dilatar la pupila. Se debe colocar la barbilla sobre un apoya-ment\'on y la frente contra una barra de soporte para mantener la cabeza quieta durante el examen. Se toman fotograf\'ias del interior del ojo . Despu\'es de tomar el primer grupo de im\'agenes, se inyecta un tinte llamado fluoresce\'ina, dentro del  torrente sangu\'ineo. En la mayor\'ia de los casos, se inyecta en la parte interior del codo. Un dispositivo similar a una c\'amara, denominada angi\'ografo, toma fotograf\'ias a medida que el tinte va pasando a lo largo de los vasos sangu\'ineos en la parte posterior del ojo. El contenido sangu\'ineo mezclado con la fluoresce\'ina produce una emisi\'on intensa de luz que permite el registro fotogr\'afico de los vasos de la retina y las coroides. Proporciona excelentes im\'agenes del \'arbol vascular.
+
+%\begin{figure}[H]
+%\centering
+%\includegraphics{./Figures/fluores.jpg}
+%\label{fig:retina}
+%\caption{( A) lustración de la anatomía del ojo y capas de la retina  Vista de la sección transversal
+%del ojo y sus estructuras principales. ( B ) Representación esquemática de las capas celulares de la retina}
+%\end{figure}
+
+Se utilizan filtros de dos tipos para asegurarse de que la luz azul entra en el ojo y s\'olo la luz amarillo-verde entra en la c\'amara (\ref{fig:lightfilter}).
 \begin{description}
   \item[a.] 
- Filtro de excitación de azul cobalto que permite el paso la luz blanca desde la cámara. La luz azul emergente
-entra en el ojo y excita las moléculas de fluoresceína en las circulaciones retiniana y coroidea, que luego emiten
+ Filtro de excitaci\'on de azul cobalto que permite el paso la luz blanca desde la c\'amara. La luz azul emergente
+entra en el ojo y excita las mol\'eculas de fluoresce\'ina en las circulaciones retiniana y coroidea, que luego emiten
 luz de una mayor longitud de onda (amarillo-verde).
 \item[b.] A continuación, un filtro de barrera amarillo-verde bloquea cualquier luz azul reflejada del ojo, y permite
 únicamente el paso de la luz fluorescente amarilloverde emitida.\cite{kanski2012oftalmologia}
 \end{description}
+
+
 poner img
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{./Figures/filtrosluz.pdf}
+\label{fig:lightfilter}
+\caption{ Bla bla bla bla}
+\end{figure}
 
 
-La angiografía con fluoresceína presenta varias peculiaridades. El desafío principal es que, a medida que el tinte de contraste  perfunde en la retina, diferentes segmentos de la vasculatura aparecen, por lo que el contenido de la imagen varía constantemente.
-Pueden ocurrir oclusiones debido a los párpados y las pestañas, algunas lesiones pueden parecerse a los vasos creando falsos positivos y los vasos periféricos aparecen a menudo distorsionados y difusos. \cite{perez2011improving}
 
-Conociendo los tiempos en los que se llenan las diferentes partes de la red vascular y teniendo fotografías consecutivas, el oftalmólogo logra hacer un mapa del fondo ocular. Anormalidades en el curso de los vasos sanguíneos, defectos estructurales de sus paredes, aparición de nuevos vasos e incipientes desprendimientos de la retina, son fácilmente detectables con la angiografía. 
+La angiograf\'ia con fluoresce\'ina presenta varias peculiaridades. El desaf\'io principal es que, a medida que el tinte de contraste  perfunde en la retina, diferentes segmentos de la vasculatura aparecen, por lo que el contenido de la imagen var\'ia constantemente.
+Pueden ocurrir oclusiones debido a los p\'arpados y las pestañas, algunas lesiones pueden parecerse a los vasos creando falsos positivos y los vasos perif\'ericos aparecen a menudo distorsionados y difusos. \cite{perez2011improving}
 
-La indicación más habitual es el estudio de problemas vasculares y, en concreto, la retinopatía diabética, así como en patologías maculares como la Degeneración macular asociada a la edad con el fin de diagnosticar si hay presencia o no de una membrana neovascular.
+Conociendo los tiempos en los que se llenan las diferentes partes de la red vascular y teniendo fotograf\'ias consecutivas, el oftalm\'ologo logra hacer un mapa del fondo ocular. Anormalidades en el curso de los vasos sangu\'ineos, defectos estructurales de sus paredes, aparición de nuevos vasos e incipientes desprendimientos de la retina, son f\'acilmente detectables con la angiograf\'ia. 
+
+La indicación más habitual es el estudio de problemas vasculares y, en concreto, la retinopat\'ia diab\'etica, as\'i como en patolog\'ias maculares como la Degeneraci\'on macular asociada a la edad con el fin de diagnosticar si hay presencia o no de una membrana neovascular.
 \\
 
 \begin{figure}[H]
@@ -214,11 +238,7 @@ La angiografía con fluoresceína es fundamental para la tratamiento de la retin
 \end{figure}
 
 
-
-Desventajas respecto a otras modalidades
-
-
-\subsubsection{AF para detección enfermendades }
+\subsubsection{AF para detecci\'on enfermedades }
 
 explicar en qué contextos se las usan, para el diagnóstico de cuáles enfermedades, y qué cosas se ven en ellas.
 
@@ -278,3 +298,11 @@ para elegir un modelo óptimo, o para identificar un único conjunto de parámet
 
 \subsubsection{métodos de segmentación en FA}
 *****métodos de segmentación en FA******
+
+\subsubsection{papelera}
+La vasculatura retinal está compuesta por arterias y venas que aparecen como estructuras alargadas, con sus afluentes visibles dentro de la imagen de la retina.
+Los anchos de los vasos son muy variados y van de uno a veinte pixels dependiendo del ancho del vaso y de la resolución de la imagen.
+\\
+La orientación y nivel de gris de los vasos no cambia abruptamente, son localmente lineales y cambian gradualmente en intensidad a lo largo de su longitud. Los vasos pueden estar conectados y, en la retina, formando una estructura similar a un árbol binario. Sin embargo, la forma, el tamaño y el nivel local de gris de los vasos sanguíneos puede variar enormemente.
+\\
+La detección automática de enfermedades y el análisis de imagenes de la vasculatura   puede asistir en la implementación de programas de detección de retinopatía diabética, evaluación de retinopatía precoz, detección de regiones avascular foveal, estrechamiento arterial, la relación entre la tortuosidad de los vasos, retinopatía hipertensiva, la medida del diámetro de los vasos en relación con la hipertensión , la cirugía láser asistida por computadora.\cite{fraz2012blood}\\
