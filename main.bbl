@@ -179,6 +179,25 @@
   \field{year}{2000}
 \endentry
 
+\entry{kanski2012oftalmologia}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kanski}{K.}%
+     {Jack~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier España}%
+  }
+  \strng{namehash}{KJJ1}
+  \strng{fullhash}{KJJ1}
+  \field{labelalpha}{Kan12}
+  \field{sortinit}{K}
+  \field{title}{Oftalmolog{\'\i}a cl{\'\i}nica}
+  \field{year}{2012}
+\endentry
+
 \entry{marin2011new}{article}{}
   \name{author}{4}{}{%
     {{}%
