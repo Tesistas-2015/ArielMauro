@@ -10,18 +10,28 @@
 
 \section{An\'alisis  de im\'agenes de la retina}
 
+En esta Secc\'in describiremos en detalle.... En la Secci\'on
+
 	\subsection{Introducci\'on}
+
+
+La retinopat\'ia diab\'etica (RD) es el l\'ider en las patolog\'ias oftalmol\'ogicas y causante de ceguera entre las personas en edad de trabajar en los pa\'ises desarrollados . Est\'a provocada por complicaciones en la diabetes mellitus y , aunque los efectos de la diabetes no necesariamente implican el deterioro de la visión , el 2\% de los pacientes afectados por este trastorno son ciegos y el 10\% padecen  degradaci\'on de la visi\'on despu\'es de 15 años de diabetes como consecuencia de complicaciones RD . La prevalencia estimada de diabetes por todos los grupos de edad en todo el mundo fue de 2,8\% en 2000 y 4,4\% en 2030 , lo que significa que el n\'umero total de pacientes con diabetes se prev\'e aumente de 171 millones en el  2000 a 366 millones en el 2030 .
+	A pesar de que la RD es una enfermedad incurable, la fotocoagulaci\'on l\'aser puede prevenir la p\'erdida de la visi\'on si es detectada en etapas tempranas. Sin embargo, los pacientes con RD no perciben ning\'un s\'intoma hasta que la p\'erdida de visi\'on se desarrolla, por lo general en estadios de la enfermedad más adelantados, cuando el tratamiento es menos eficaz. Entonces, para garantizar que el tratamiento es recibido a tiempo, los pacientes diab\'eticos necesitan un examen anual de fondo de ojo. Sin embargo, esta acci\'on preventiva involucra presenta un enorme desaf\'io para el Sistema de Salud debido  al gran n\'umero de pacientes que necesitan revisi\'on oftalmológica. Por lo tanto, la RD tambi\'en llega a ser un gran problema econ\'omico en la  Administraci\'on P\'ublica ya que ,solo en U.S, el costo de las complicaciones oftalmol\'ogicas cr\'onicas causada por la diabetes excedi\'o un bill\'on de d\'olares en 2007.
+El uso de im\'agenes digitales para diagnosticar enfermedades del ojo podr\'ia ser explotado por sistemas de computadora para la detecci\'on temprana de RD. Un sistema que podr\'ia ser  usado por personal no experto para filtrar casos de pacientes no afectados por enfermedades, har\'ia reducir la carga de trabajo del especialista e incrementaria la efectividad de los protocolos de prevenci\'on y los tratamientos terap\'euticos en etapas tempranas. Adem\'as, esto ser\'ia tambi\'en un resultado beneficio en el Sistema de Salud, ya que el costo-efectividad asociado a la detecci\'on temprana de enfermedades da lugar a un ahorro de costos notables.
+Ya que las anomal\'ias vasculares son una de las manifestaciones de la RD, la evaluaci\'on autom\'atica de los vasos sangu\'ineos de las imagenes de fondo de ojo es necesaria para automatizar la detecci\'on de RD. Como un paso previo, la evaluaci\'on de los vasos demanda la segmentaci\'on del \'arbol vascular para su posterior procesamiento. Adem\'as, la segmentaci\'on del \'arbol vascular resulta \'util para otros prop\'ositos cl\'inicos: evaluaci\'on de retinopat\'ia prematura, estrechamiento arterial, tortoise en los vasos para caracterizar retinopat\'ia hipertensiva, medida del di\'ametro de los vasos para diagnosticar hipertensi\'on y enfermedades cardiovasculares y cirug\'ia l\'aer por computaci\'on asistida, entre otras.
+Por otro lado, el \'arbol vascular tambi\'en sirve para ser usado como informaci\'on valiosa para ubicar otras caracter/'isticas del fondo de ojo como el disco \'optico y la f\'ovea. \cite{marin2011new}
+
 
 		\subsubsection{Anatom\'ia del ojo}
 
-El ojo humano es un órgano fotorreceptor, cuya función, consiste en recibir los rayos luminosos procedentes de los objetos presentes en el mundo exterior y transformarlos en impulsos eléctricos que son conducidos al centro nervioso de la visión en el cerebro. 
+El ojo humano es un \'organo fotorreceptor, cuya funci\'on, consiste en recibir los rayos luminosos procedentes de los objetos presentes en el mundo exterior y transformarlos en impulsos el\'ectricos que son conducidos al centro nervioso de la visi\'on en el cerebro. 
 
-La estructura anatómica del ojo se compone básicamente por la córnea (transparente), la esclera (normalmente blanca), el iris (que da color al ojo) y la pupila. Todas estas partes son visibles desde el exterior, y son las responsables de permitir la visión: un rayo de luz pasa a través de la córnea, que enfoca parcialmente la imagen, luego pasa por la cámara anterior, la pupila (que hace las veces de lente y enfoca aún más la imagen), la vítrea y por último es enfocado en la retina.
+La estructura anat\'omica del ojo se compone b\'asicamente por la c\'ornea (transparente), la esclera (normalmente blanca), el iris (que da color al ojo) y la pupila. Todas estas partes son visibles desde el exterior, y son las responsables de permitir la visi\'on: un rayo de luz pasa a trav\'es de la c\'ornea, que enfoca parcialmente la imagen, luego pasa por la c\'amara anterior, la pupila (que hace las veces de lente y enfoca a\'un m\'as la imagen), la v\'itrea y por \'ultimo es enfocado en la retina.
 
-La retina es un tejido en capas que recubre el interior del ojo, permitiendo la conversión de la luz entrante en señales neuronales adecuadas para su posterior procesamiento por parte de la corteza visual del cerebro. La misma está sostenida por el epitelio pigmentario retinal, la coroide y la esclera.
+La retina es un tejido en capas que recubre el interior del ojo, permitiendo la conversi\'on de la luz entrante en señales neuronales adecuadas para su posterior procesamiento por parte de la corteza visual del cerebro. La misma est\'a sostenida por el epitelio pigmentario retinal, la coroide y la esclera.
 
 Por su funci\'on, esta requiere que las estructuras oculares involucradas sean \'opticamente transparentes para la formac\'on de la im\'agen.
-La mayoría de las capas de la retina pueden observarse en las imágenes de tomografía de coherencia óptica.Sin embargo, la captura de imágenes de la coroide capilar y el plexus de la coroide, no puede realizarse aún con dispositivos disponibles comercialmente, aunque sí para investigación.\cite{abramoff2010retinal}
+La mayor\'ia de las capas de la retina pueden observarse en las im\'agenes de tomografía de coherencia óptica.Sin embargo, la captura de imágenes de la coroide capilar y el plexus de la coroide, no puede realizarse aún con dispositivos disponibles comercialmente, aunque sí para investigación.\cite{abramoff2010retinal}
 
 El suministro de sangre de la retina es principalmente a traves de la coroides y secundariamente por la vasculatura de la retina que reposa sobre la retina. Es mas simple dividir la retina y la coroide en las siguientes capas:
 \begin{enumerate}[1.]
@@ -106,7 +116,7 @@ Desde su introducci\'on en 1960, la angiograf\'ia fluorescente ha sido una herra
 \\
 
 La fluorescencia es la propiedad de ciertas mol\'eculas de emitir luz de una longitud de onda superior cuando son
-estimuladas por una luz de menor longitud de onda. El pico de excitaci\on de la fluoresce\'ina es de, aproximadamente, 490 nm (en la parte azul del espectro) y representa la m\'axima absorci\'on de energ\'ia lum\'inica por la fluoresce\'ina. Las mol\'eculas estimuladas por esta longitud de onda son excitadas hasta un nivel de energ\'ia superior y emiten luz de aproximadamente 530 nm \ref{fig:wavechanges1}.
+estimuladas por una luz de menor longitud de onda. El pico de excitaci\'on de la fluoresce\'ina es de, aproximadamente, 490 nm (en la parte azul del espectro) y representa la m\'axima absorci\'on de energ\'ia lum\'inica por la fluoresce\'ina. Las mol\'eculas estimuladas por esta longitud de onda son excitadas hasta un nivel de energ\'ia superior y emiten luz de aproximadamente 530 nm \ref{fig:wavechanges1}.
 
 
 %\begin{figure}[H]
@@ -155,7 +165,6 @@ luz de una mayor longitud de onda (amarillo-verde).
 \end{description}
 
 
-poner img
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{./Figures/filtrosluz.pdf}
@@ -177,22 +186,22 @@ La indicaci\'on más habitual es el estudio de problemas vasculares y, en concre
   \centering
 	\begin{subfigure}[b]{0.23\textwidth}
         \includegraphics[width=1\textwidth]{./Figures/FA_Fig1.jpg}
-        \caption{Time 0}
+        \caption{Fase arterial}
         \label{fig:af1}
     \end{subfigure}
 	\begin{subfigure}[b]{0.23\textwidth}
         \includegraphics[width=1\textwidth]{./Figures/FA_Fig2.jpg}
-        \caption{Time 1}
+        \caption{Fase arteriovenosa}
         \label{fig:af2}
     \end{subfigure}
 	\begin{subfigure}[b]{0.23\textwidth}
         \includegraphics[width=1\textwidth]{./Figures/FA_Fig3.jpg}
-        \caption{Time 2}
+        \caption{Fase venosa}
         \label{fig:af3}
     \end{subfigure}
     	\begin{subfigure}[b]{0.23\textwidth}
         \includegraphics[width=1\textwidth]{./Figures/FA_Fig4.jpg}
-        \caption{Time 3}
+        \caption{Fase de eliminación}
         \label{fig:af4}
     \end{subfigure}
 	\label{fig:retina}
@@ -215,27 +224,52 @@ La angiografía con fluoresceína es fundamental para la tratamiento de la retin
 	\centering
 	\begin{subfigure}[b]{0.23\textwidth}
         \includegraphics[width=1\textwidth]{./Figures/AF1.png}
-        \caption{Time 0}
+        \caption{Fase arterial}
         \label{fig:af1}
     \end{subfigure}
 	\begin{subfigure}[b]{0.23\textwidth}
         \includegraphics[width=1\textwidth]{./Figures/AF2.png}
-        \caption{Time 1}
+        \caption{Fase arteriovenosa}
         \label{fig:af2}
     \end{subfigure}
 	\begin{subfigure}[b]{0.23\textwidth}
         \includegraphics[width=1\textwidth]{./Figures/AF3.png}
-        \caption{Time 2}
+        \caption{Fase venosa}
         \label{fig:af3}
     \end{subfigure}
     	\begin{subfigure}[b]{0.23\textwidth}
         \includegraphics[width=1\textwidth]{./Figures/AF4.png}
-        \caption{Time 3}
+        \caption{Fase de eliminación}
         \label{fig:af4}
     \end{subfigure}
 	\label{fig:retina}
 	\caption{Angiograf\'ia con fluoresc\'ina}
 \end{figure}
+
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{./Figures/FA_estrucure.pdf}
+\label{fig:lightfilter}
+\caption{ Estructura anat\'omicas}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{./Figures/edemaMacularFA.pdf}
+\label{fig:lightfilter}
+\caption{ Edema macular}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{./Figures/retinopatiaFA.pdf}
+\label{fig:lightfilter}
+\caption{ Retinopatia diabetica}
+\end{figure}
+
 
 
 \subsubsection{AF para detecci\'on enfermedades }
@@ -265,11 +299,7 @@ La isquemia retinal se caracteriza mejor utilizando angiograf\'ias fluorescentes
 \section{Segmentaci\'on de vasos sangu\'ineos en FA}
 
 	\subsection{Necesidad}
-	La retinopatía diabética ( RD) es el líder en las patologías oftalmológicas y causante de ceguera entre las personas en edad de trabajar en los países desarrollados . Está provocada por complicaciones en la diabetes mellitus y , aunque los efectos de la diabetes no necesariamente implican el deterioro de la visión , el 2\% de los pacientes afectados por este trastorno son ciegos y el 10\% padecen  degradación de la visión después de 15 años de diabetes como consecuencia de complicaciones RD . La prevalencia estimada de diabetes por todos los grupos de edad en todo el mundo fue de 2,8\% en 2000 y 4,4\% en 2030 , lo que significa que el número total de pacientes con diabetes se prevé aumente de 171 millones en el  2000 a 366 millones en el 2030 .
-	A pesar de que la RD es una enfermedad incurable, la fotocoagulación láser puede prevenir la pérdida de la visión si es detectada en etapas tempranas. Sin embargo, los pacientes con RD no perciben ningún síntoma hasta que la pérdida de visión se desarrolla, por lo general en estadios de la enfermedad más adelantados, cuando el tratamiento es menos eficaz. Entonces, para garantizar que el tratamiento es recibido a tiempo, los pacientes diabéticos necesitan un examen anual de fondo de ojo. Sin embargo, esta acción preventiva involucra un enorme desafío para el Sistema de Salud debido  al gran número de pacientes que necesitan revisión oftalmológica. Por lo tanto, la RD también llega a ser un gran problema económico en la  Administración Pública ya que ,solo en U.S, el costo de las complicaciones oftalmológicas crónicas causada por la diabetes excedió un billón de dólares en 2007.
-El uso de imágenes digitales para diagnosticar enfermedades del ojo podría ser explotado por sistemas de computadora para la detección temprana de RD. Un sistema que podría ser  usado por personal no experto para filtrar casos de pacientes no afectados por enfermedades, haría reducir la carga de trabajo del especialista e incrementaria la efectividad de los protocolos de prevención y os tratamientos terapéuticos en etapas tempranas. Además, esto sería también un resultado beneficio en el Sistema de Salud, ya que el costo-efectividad asociado a la detección temprana de enfermedades da lugar a un ahorro de costos notables.
-Ya que las anomalías vasculares son una de las manifestaciones de la RD, la evaluación automática de los vasos sanguíneos de fondo de ojo es necesario para automatizar la detección de RD. Como un paso previo, la evaluación de los vasos demanda la segmentación del árbol vascular para su posterior procesamiento. El conocimiento de la ubicación de los vasos sanguíneos para reducir el número de falsos positivos en la detección de microaneurismas y hemorragias. Además, estas aplicaciones motivadas por la automática detección temprana de RD, la segmentación del árbol vascular resulta útil para otros propósitos clínicos: evaluación de retinopatía prematura, estrechamiento arterial, tortoise en los vasos para caracterizar retinopatía hipertensiva, medida del diámetro de los vasos para diagnosticar hipertensión y enfermedades cardiovasculares y cirugía láser por computación asistida, entre otras.
-Por otro lado, el árbol vascular también sirve para ser usado como información valiosa para ubicar otras características del fondo de ojo como el disco óptico y la fóvea. \cite{marin2011new}
+	
 
 	\subsection{M\'etodos existentes}
 
