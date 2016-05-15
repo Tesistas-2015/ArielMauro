@@ -48,6 +48,60 @@
   \field{year}{2010}
 \endentry
 
+\entry{azad2013retcam}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Azad}{A.}%
+     {Rajvardhan}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arora}{A.}%
+     {Tarun}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sihota}{S.}%
+     {Ramanjit}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chandra}{C.}%
+     {Parijat}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mahajan}{M.}%
+     {Deepankur}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sain}{S.}%
+     {Siddarth}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sharma}{S.}%
+     {YogRaj}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {LWW}%
+  }
+  \strng{namehash}{AR+1}
+  \strng{fullhash}{ARATSRCPMDSSSY1}
+  \field{labelalpha}{Aza+13}
+  \field{sortinit}{A}
+  \field{number}{9}
+  \field{pages}{1902\bibrangedash 1907}
+  \field{title}{Retcam fluorescein gonioangiography: a new modality for early
+  detection of angle neovascularization in diabetic retinopathy}
+  \field{volume}{33}
+  \field{journaltitle}{Retina}
+  \field{year}{2013}
+\endentry
+
 \entry{el2011segmentation}{inproceedings}{}
   \name{author}{6}{}{%
     {{}%
@@ -237,6 +291,110 @@
   \field{year}{2011}
 \endentry
 
+\entry{muqit2013optos}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Muqit}{M.}%
+     {Mahiul~MK}{M.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marcellino}{M.}%
+     {George~R}{G.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Henson}{H.}%
+     {David~B}{D.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Young}{Y.}%
+     {Lorna~B}{L.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Patton}{P.}%
+     {Niall}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Charles}{C.}%
+     {Stephen~J}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Turner}{T.}%
+     {George~S}{G.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stanga}{S.}%
+     {Paulo~E}{P.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{MMM+1}
+  \strng{fullhash}{MMMMGRHDBYLBPNCSJTGSSPE1}
+  \field{labelalpha}{Muq+13}
+  \field{sortinit}{M}
+  \field{number}{3}
+  \field{pages}{251\bibrangedash 258}
+  \field{title}{Optos-guided pattern scan laser (Pascal)-targeted retinal
+  photocoagulation in proliferative diabetic retinopathy}
+  \field{volume}{91}
+  \field{journaltitle}{Acta ophthalmologica}
+  \field{year}{2013}
+\endentry
+
+\entry{patel2013characterization}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Patel}{P.}%
+     {Ravi~D}{R.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Messner}{M.}%
+     {Leonard~V}{L.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Teitelbaum}{T.}%
+     {Bruce}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Michel}{M.}%
+     {Kimberly~A}{K.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hariprasad}{H.}%
+     {Seenu~M}{S.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{PRD+1}
+  \strng{fullhash}{PRDMLVTBMKAHSM1}
+  \field{labelalpha}{Pat+13}
+  \field{sortinit}{P}
+  \field{number}{6}
+  \field{pages}{1038\bibrangedash 1044}
+  \field{title}{Characterization of ischemic index using ultra-widefield
+  fluorescein angiography in patients with focal and diffuse recalcitrant
+  diabetic macular edema}
+  \field{volume}{155}
+  \field{journaltitle}{American journal of ophthalmology}
+  \field{year}{2013}
+\endentry
+
 \entry{patel2014ultra}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -394,11 +552,62 @@
   \strng{namehash}{WMM+1}
   \strng{fullhash}{WMMNNAGDEJRDDJKS1}
   \field{labelalpha}{Wes+12}
+  \field{extraalpha}{1}
   \field{sortinit}{W}
   \field{pages}{bjophthalmol\bibrangedash 2011}
   \field{title}{Peripheral retinal ischaemia, as evaluated by ultra-widefield
   fluorescein angiography, is associated with diabetic macular oedema}
   \field{journaltitle}{British Journal of Ophthalmology}
+  \field{year}{2012}
+\endentry
+
+\entry{wessel2012ultra}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Wessel}{W.}%
+     {Matthew~M}{M.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aaker}{A.}%
+     {Grant~D}{G.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Parlitsis}{P.}%
+     {George}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cho}{C.}%
+     {Minhee}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {D'Amico}{D.}%
+     {Donald~J}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kiss}{K.}%
+     {Szil{\'a}rd}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {LWW}%
+  }
+  \strng{namehash}{WMM+1}
+  \strng{fullhash}{WMMAGDPGCMDDJKS1}
+  \field{labelalpha}{Wes+12}
+  \field{extraalpha}{2}
+  \field{sortinit}{W}
+  \field{number}{4}
+  \field{pages}{785\bibrangedash 791}
+  \field{title}{ULTRA--WIDE-FIELD ANGIOGRAPHY IMPROVES THE DETECTION AND
+  CLASSIFICATION OF DIABETIC RETINOPATHY}
+  \field{volume}{32}
+  \field{journaltitle}{Retina}
   \field{year}{2012}
 \endentry
 
