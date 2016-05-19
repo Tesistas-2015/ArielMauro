@@ -142,15 +142,14 @@ estimuladas por una luz de menor longitud de onda. El pico de excitaci\'on de la
 \end{figure}
 
 
-Durante la captura de las angiaografias fluorecentes se le administran al paciente gotas oculares que hacen dilatar la pupila. Se debe colocar la barbilla sobre un apoya-mentón y la frente contra una barra de soporte para mantener la cabeza quieta durante el examen. Se toman fotografías del interior del ojo . Después de tomar el primer grupo de imágenes, se inyecta un tinte llamado fluoresceína, dentro del  torrente sanguíneo. En la mayoría de los casos, se inyecta en la parte interior del codo. Un dispositivo similar a una cámara, denominada angiógrafo, toma fotografías a medida que el tinte va pasando a lo largo de los vasos sanguíneos en la parte posterior del ojo.El contenido sanguíneo mezclado con la fluoresceína produce una emisión intensa de luz que permite el registro fotográfico de los vasos de la retina y las coroides. Proporciona excelentes imágenes del árbol vascular.
 
-\begin{figure}[H]
-\centering
-\includegraphics{./Figures/fluores.jpg}
-\label{fig:retina}
-\caption{( A) lustración de la anatomía del ojo y capas de la retina  Vista de la sección transversal
-del ojo y sus estructuras principales. ( B ) Representación esquemática de las capas celulares de la retina}
-\end{figure}
+%\begin{figure}[H]
+%\centering
+%\includegraphics{./Figures/fluores.jpg}
+%\label{fig:retina}
+%\caption{( A) lustración de la anatomía del ojo y capas de la retina  Vista de la sección transversal
+%del ojo y sus estructuras principales. ( B ) Representación esquemática de las capas celulares de la retina}
+%\end{figure}
 
 
 Durante la captura de las angiograf\'ias fluorecentes se le administran al paciente gotas oculares que hacen dilatar la pupila. Se debe colocar la barbilla sobre un apoya-ment\'on y la frente contra una barra de soporte para mantener la cabeza quieta durante el examen. Se toman fotograf\'ias del interior del ojo . Despu\'es de tomar el primer grupo de im\'agenes, se inyecta un tinte llamado fluoresce\'ina, dentro del  torrente sangu\'ineo. En la mayor\'ia de los casos, se inyecta en la parte interior del codo. Un dispositivo similar a una c\'amara, denominada angi\'ografo, toma fotograf\'ias a medida que el tinte va pasando a lo largo de los vasos sangu\'ineos en la parte posterior del ojo. El contenido sangu\'ineo mezclado con la fluoresce\'ina produce una emisi\'on intensa de luz que permite el registro fotogr\'afico de los vasos de la retina y las coroides. Proporciona excelentes im\'agenes del \'arbol vascular.
@@ -438,6 +437,41 @@ Los Intravascular filling defects (IVFD) son características de  MR que pueden 
 	\subsection{Herramientas computacionales para an\'alisis de agiograf\'ias con fluoresce\'ina}
 
 
+Tradicionalmente, en el análisis de  angiografía con fluoresceína  se obtenían las imágenes del árbol vascular de la retina mediante  el método explicado anteriormente y luego  el oftalmogo era capaz de identificar la formación de nuevos vasos patológicos (neovasos), la obstrucción de la circulación arterial o venosa a través de la ausencia de paso del contraste, o bien la rotura de los mismos, objetivando en este caso el escape del contraste fuera del vaso. Este análisis se realizaba in situ y de modo visual por el oftamologo, delegando el análisis de los resultados a la apreciación de él mismo, pudiendo acarrear un margen de error significativo ya que la imagen puede no resaltar algunas estructuras importantes o contener ruido que dificulten el correcto análisis.
+
+Los avances tecnológicos, tanto en adquisición como en procesamiento de imágenes, han dado lugar al desarrollo de aplicaciones de asistencia al diagnóstico, la planificación de intervenciones o tratamientos y el monitoreo de enfermedades. Estas aplicaciones pueden resultar particularmente importante a fin de reducir el ruido o distorsiones que pueden afectar la información presente en las imágenes o para la extracción de características de interés.
+A partir de la información obtenida de la imagen, por medio de estrategias de análisis es posible reconocer patrones o extraer diferentes indicadores cuantitativos para evaluar la extensión o distribución de una determinada estructura o patología como pueden ser las arterias o las venas.
+Otro avance tecnológico importante es la telemedicina, en este caso teleoftalmología, en donde el  médico solicitante requiere el diagnostico de un oftalmólogo a distancia, de modo que disponiendo de la mayor información pueda llegar a una decisión clínica efectiva.
+
+En contraste con el procesamiento de imágenes en general que tiene objetivos primarios, tales como la mejora de la estética de una imagen o la creación de arte, el único propósito de procesamiento de imágenes médicas es la mejora de la interpretabilidad de los contenidos representados. Esto puede implicar una mejora de la imagen en sí para aumentar la percepción de ciertas características, así como la extracción de información.
+Las etapas del procesamiento de imagenes medicas las podemos dividir en:
+
+\begin{description}
+\item [Captura :]  En el ámbito médico existen diferentes modalidades de captura como resonancia magnética,tomografía computada, fondo de ojo, etc. 
+\item [Preprocesamiento :] La eliminación de distorsiones de la imagen, como el ruido e inhomogeneidades del fondo, así como también el realce de los contornos de la imagen y otras propiedades relevantes.
+\item [Segmentación :] La identificación de contornos de estructuras anatómicas, como un órgano, vasos sanguíneos, o un tumor.
+\item [Registración :] La transformación espacial de una imagen de tal manera que coincida directamente con  una imagen de referencia dada. Esto es necesario, por ejemplo, en la visualización combinada de imágenes de diferentes modalidades (ej., TEP / TC).
+\item [Quantificación :] La determinación de propiedades geométricas de una estructura anatómica (ej. volumen, diámetro y curvatura) o propiedades fisiológicas tales como la perfusión características o composición del tejido.
+\item [Visualización :] Representación de los datos de la imagen en dos y tres dimensiones (ej. redering de volumen) y visualización de modelos de órganos y otras estructuras anatómicas.
+\item [Detección asistida por computadora :] La detección y caracterización de estructuras patológicas y lesiones, como tumores o obstrucciones de vasos sanguíneos. \cite{ritter2011medical} 
+\end{description}
+
+
+
+
+Zhao et al. \cite{zhao2015retinal} desarrollaron un framework que puede detectar automaticamente tres tipos de filtraciones o fugas de liquidos en los vasos de la retina (fugas grandes , fugas pequeñas o puntiformes, fugas en segmentos de los vasos) para imagenes de pacientes con retinopatia malaria. Este framework comprende tres pasos: segmentación de los vasos, prominencia de caracteristicas y detección de fugas. Se probo la eficacia de este framework aplicándolo a imágenes de 20 pacientes con fugas grandes , 10 pacientes con fugas pequeñas, y 5.846 segmentos de vasos de 10 pacientes con derrame de los vasos.
+La sensibilidad en la detección de fugas grandes,puntiforme y segmentos de vasos es de 95\%, 82\% y
+81\%, respectivamente, en comparación con la observación de expertos. Este framework tiene el potencial de convertirse en una nueva y poderosa herramienta para el estudio de la retinopatía de la malaria, y otras condiciones que impliquen la fugas en la retina.
+
+Agurto et al. \cite{agurto2016vessel}  desarrollaron el primer algoritmo automático para la detección de los vasos descoloridos por retinopatía malaria en imágenes de la retina . La aplicación consiste en un algoritmo de segmentación mejorada recipiente que pueda segmentar vasos con decoloración , además de la extracción de características robustas que  ayuda a conseguir altas tasas de detección para los segmentos de vasos y la clasificación de imágenes .El sistema proporciona una precisión del 85\% con una sensibilidad/especificidad del 68\%/ 100\%. 
+
+Rabbani et al. \cite{rabbani2015fully}  crearon ualgoritmo totalmente automatizado que puede  precisar y cuantificar el área de la fuga en angiografias de fluorecencia de pacientes con EDM y es congruente con la segmentación manual de expertos . El rendimiento es fiable para los diferentes subtipos de EMD . Este enfoque tiene el potencial de reducir tiempo y costos de mano de obra y puede producir mediciones cuantitativas objetivas en imagenes de EMD.
+
+
+
+
+
+ 
 
 \section{Segmentaci\'on de vasos sangu\'ineos en FA}
 

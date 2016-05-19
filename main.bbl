@@ -48,6 +48,68 @@
   \field{year}{2010}
 \endentry
 
+\entry{agurto2016vessel}{inproceedings}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Agurto}{A.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nemeth}{N.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barriga}{B.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Soliz}{S.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {MacCormick}{M.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Taylor}{T.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harding}{H.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lewallen}{L.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Joshi}{J.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{2}{%
+    {International Society for Optics}%
+    {Photonics}%
+  }
+  \strng{namehash}{AC+1}
+  \strng{fullhash}{ACNSBSSPMITTHSLSJV1}
+  \field{labelalpha}{Agu+16}
+  \field{sortinit}{A}
+  \field{booktitle}{SPIE Medical Imaging}
+  \field{pages}{978519\bibrangedash 978519}
+  \field{title}{Vessel discoloration detection in malarial retinopathy}
+  \field{year}{2016}
+\endentry
+
 \entry{azad2013retcam}{article}{}
   \name{author}{7}{}{%
     {{}%
@@ -487,6 +549,104 @@
   \field{pages}{2614\bibrangedash 2617}
   \field{title}{Improving vessel segmentation in ultra-wide field-of-view
   retinal fluorescein angiograms}
+  \field{year}{2011}
+\endentry
+
+\entry{rabbani2015fully}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Rabbani}{R.}%
+     {Hossein}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Allingham}{A.}%
+     {Michael~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mettu}{M.}%
+     {Priyatham~S}{P.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cousins}{C.}%
+     {Scott~W}{S.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Farsiu}{F.}%
+     {Sina}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {The Association for Research in Vision}%
+    {Ophthalmology}%
+  }
+  \strng{namehash}{RH+1}
+  \strng{fullhash}{RHAMJMPSCSWFS1}
+  \field{labelalpha}{Rab+15}
+  \field{sortinit}{R}
+  \field{number}{3}
+  \field{pages}{1482\bibrangedash 1492}
+  \field{title}{Fully Automatic Segmentation of Fluorescein Leakage in Subjects
+  With Diabetic Macular EdemaAutomatic Leakage Segmentation in DME}
+  \field{volume}{56}
+  \field{journaltitle}{Investigative ophthalmology \& visual science}
+  \field{year}{2015}
+\endentry
+
+\entry{ritter2011medical}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Ritter}{R.}%
+     {Felix}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boskamp}{B.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Homeyer}{H.}%
+     {Andr{\'e}}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Laue}{L.}%
+     {Hendrik}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schwier}{S.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Link}{L.}%
+     {Florian}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Peitgen}{P.}%
+     {Heinz-Otto}{H.-O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{RF+1}
+  \strng{fullhash}{RFBTHALHSMLFPHO1}
+  \field{labelalpha}{Rit+11}
+  \field{sortinit}{R}
+  \field{number}{6}
+  \field{pages}{60\bibrangedash 70}
+  \field{title}{Medical image analysis}
+  \field{volume}{2}
+  \field{journaltitle}{Pulse, IEEE}
   \field{year}{2011}
 \endentry
 
