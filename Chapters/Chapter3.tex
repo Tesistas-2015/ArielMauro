@@ -82,8 +82,25 @@ Para la reducci\'on de ruido nos enfocamos en encontrar filtros que nos permitie
 En nuestra b\'usqueda encontramos varios algoritmos matem\'aticos que apuntaban en esta direcci\'on como el filtro gaussiano pero determinamos que no estaban plenamente enfocados en mantener las estructuras sino mas bien que esto era una consecuencia de su naturaleza. Sobre el final de la misma, y a trav\'es de la lectura de algunas investigaciones descubrimos el filtro de difusi\'on anisotr\'opica \cite{perona1990scale} y el filtro de coherencia \cite{weickert1999coherence}.
 
 \begin{description}
-  \item[Difusi\'on anisotr\'opica:]
-  \item[Filtro de coherencia:]
+  \item[Difusi\'on anisotr\'opica:] La difusi\'on es un termino muy utilizado en diferentes \'areas de la ciencia. Su formula es la siguiente:
+  
+  \begin{displaymath}
+  	\partial_tL=div(D\nabla L)    
+  \end{displaymath} 
+  
+  En este trabajo utilizamos difusi\'on anistr\'opica asociandola directamente a la difusi\'on anisotr\'opica de Perona-Malik, la cual se basa principalmente en la aplicaci\'on de una convoluci\'on utilizando la formula de difusi\'on donde D (divergente) es una expresi\'on constante basada en el gradiente de la imagen. Al utlizar una constante como divergente hablamos entonces de difusi\'on isotr\'onpica aunque este algoritmo haya sido clasificado erroneamente en un principio. \\
+  Espec\'ificamente, Perona-Malik, proveen dos alternativas para el uso como constantes de divergencia:
+  
+  \begin{displaymath}
+  	c(\left\|\nabla I\right\|)=e^{-(\left\|\nabla I\right\|/K)^2}  
+  \end{displaymath}   
+  y
+  \begin{displaymath}
+  	c(\left\|\nabla I\right\|)=\frac1{1+({\displaystyle\frac{(\left\|\nabla I\right\|}K})^2}
+  \end{displaymath}
+  Este filtro en general busca suavizar la imagen respetando los bordes, pero es sabido que posee muchos problemas con bordes ruidosos, dejandolos a\'un en peor estado.
+  
+  \item[Realce de coherencia:] El filtro de realce de coherencia, al igual que el filtro de Perona-Malik, se basa en la formula de difusi\'on. Pero a diferencia del anterior, el realce de coherencia se basa en coeficientes de divergencia variables, basados principalmente en matrices de derivadas que analizan la zona circundante del pixel en an\'alisis.
 \end{description}
 
 \subsubsection{Mejoramiento de contraste}

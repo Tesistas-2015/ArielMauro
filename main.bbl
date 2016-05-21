@@ -355,6 +355,87 @@
   \field{year}{2000}
 \endentry
 
+\entry{jelinek2007automated}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Jelinek}{J.}%
+     {Herbert~F}{H.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cree}{C.}%
+     {Michael~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leandro}{L.}%
+     {Jorge~JG}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Soares}{S.}%
+     {Jo{\~a}o~VB}{J.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cesar}{C.}%
+     {Roberto~M}{R.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Luckie}{L.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Optical Society of America}%
+  }
+  \strng{namehash}{JHF+1}
+  \strng{fullhash}{JHFCMJLJJSJVCRMLA1}
+  \field{labelalpha}{Jel+07}
+  \field{sortinit}{J}
+  \field{number}{5}
+  \field{pages}{1448\bibrangedash 1456}
+  \field{title}{Automated segmentation of retinal blood vessels and
+  identification of proliferative diabetic retinopathy}
+  \field{volume}{24}
+  \field{journaltitle}{JOSA A}
+  \field{year}{2007}
+\endentry
+
+\entry{joshi2010automated}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Joshi}{J.}%
+     {Vinayak}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reinhardt}{R.}%
+     {Joseph~M}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Abr{\`a}moff}{A.}%
+     {Michael~D}{M.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{2}{%
+    {International Society for Optics}%
+    {Photonics}%
+  }
+  \strng{namehash}{JVRJMAMD1}
+  \strng{fullhash}{JVRJMAMD1}
+  \field{labelalpha}{JRA10}
+  \field{sortinit}{J}
+  \field{booktitle}{SPIE Medical Imaging}
+  \field{pages}{76243A\bibrangedash 76243A}
+  \field{title}{Automated measurement of retinal blood vessel tortuosity}
+  \field{year}{2010}
+\endentry
+
 \entry{kanski2012oftalmologia}{book}{}
   \name{author}{1}{}{%
     {{}%
