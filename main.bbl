@@ -110,6 +110,44 @@
   \field{year}{2016}
 \endentry
 
+\entry{akram2012automated}{inproceedings}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Akram}{A.}%
+     {M~Usman}{M.~U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jamal}{J.}%
+     {Iqbal}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tariq}{T.}%
+     {Anum}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Imtiaz}{I.}%
+     {Jahanzaib}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{AMU+1}
+  \strng{fullhash}{AMUJITAIJ1}
+  \field{labelalpha}{Akr+12}
+  \field{sortinit}{A}
+  \field{booktitle}{Biomedical and Health Informatics (BHI), 2012 IEEE-EMBS
+  International Conference on}
+  \field{pages}{232\bibrangedash 235}
+  \field{title}{Automated segmentation of blood vessels for detection of
+  proliferative diabetic retinopathy}
+  \field{year}{2012}
+\endentry
+
 \entry{azad2013retcam}{article}{}
   \name{author}{7}{}{%
     {{}%
@@ -162,6 +200,28 @@
   \field{volume}{33}
   \field{journaltitle}{Retina}
   \field{year}{2013}
+\endentry
+
+\entry{cepeda2016segmentacion}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cepeda~Fuentealba}{C.~F.}%
+     {Sebasti{\'a}n}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Universidad de Chile}%
+  }
+  \strng{namehash}{CFS1}
+  \strng{fullhash}{CFS1}
+  \field{labelalpha}{CF16}
+  \field{sortinit}{C}
+  \field{title}{Segmentaci{\'o}n de vasos sangu{\'\i}neos de retina usando
+  selecci{\'o}n de caracter{\'\i}sticas mediantes distancia de bhattacharyya y
+  algoritmos gen{\'e}ticos, para un clasificador por maximizaci{\'o}n de la
+  entrop{\'\i}a}
+  \field{year}{2016}
 \endentry
 
 \entry{el2011segmentation}{inproceedings}{}
@@ -351,6 +411,79 @@
   \field{volume}{30}
   \field{journaltitle}{Medical Imaging, IEEE Transactions on}
   \field{year}{2011}
+\endentry
+
+\entry{mendonca2006segmentation}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Mendonca}{M.}%
+     {Ana~Maria}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Campilho}{C.}%
+     {Aurelio}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{MAMCA1}
+  \strng{fullhash}{MAMCA1}
+  \field{labelalpha}{MC06}
+  \field{sortinit}{M}
+  \field{number}{9}
+  \field{pages}{1200\bibrangedash 1213}
+  \field{title}{Segmentation of retinal blood vessels by combining the
+  detection of centerlines and morphological reconstruction}
+  \field{volume}{25}
+  \field{journaltitle}{Medical Imaging, IEEE Transactions on}
+  \field{year}{2006}
+\endentry
+
+\entry{martinez2007segmentation}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Martinez-Perez}{M.-P.}%
+     {M~Elena}{M.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hughes}{H.}%
+     {Alun~D}{A.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thom}{T.}%
+     {Simon~A}{S.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bharath}{B.}%
+     {Anil~A}{A.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Parker}{P.}%
+     {Kim~H}{K.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{MPME+1}
+  \strng{fullhash}{MPMEHADTSABAAPKH1}
+  \field{labelalpha}{MP+07}
+  \field{sortinit}{M}
+  \field{number}{1}
+  \field{pages}{47\bibrangedash 61}
+  \field{title}{Segmentation of blood vessels from red-free and fluorescein
+  retinal images}
+  \field{volume}{11}
+  \field{journaltitle}{Medical image analysis}
+  \field{year}{2007}
 \endentry
 
 \entry{muqit2013optos}{article}{}
