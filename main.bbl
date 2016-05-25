@@ -224,6 +224,50 @@
   \field{year}{2016}
 \endentry
 
+\entry{chaudhuri1989detection}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Chaudhuri}{C.}%
+     {Subhasis}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chatterjee}{C.}%
+     {Shankar}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Katz}{K.}%
+     {Norman}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nelson}{N.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goldbaum}{G.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{CS+1}
+  \strng{fullhash}{CSCSKNNMGM1}
+  \field{labelalpha}{Cha+89}
+  \field{sortinit}{C}
+  \field{number}{3}
+  \field{pages}{263\bibrangedash 269}
+  \field{title}{Detection of blood vessels in retinal images using
+  two-dimensional matched filters}
+  \field{volume}{8}
+  \field{journaltitle}{Medical Imaging, IEEE Transactions on}
+  \field{year}{1989}
+\endentry
+
 \entry{el2011segmentation}{inproceedings}{}
   \name{author}{6}{}{%
     {{}%
@@ -983,6 +1027,45 @@
   \field{volume}{32}
   \field{journaltitle}{Retina}
   \field{year}{2012}
+\endentry
+
+\entry{zhang2010retinal}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Zhang}{Z.}%
+     {Bob}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Lin}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zhang}{Z.}%
+     {Lei}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Karray}{K.}%
+     {Fakhri}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{ZB+1}
+  \strng{fullhash}{ZBZLZLKF1}
+  \field{labelalpha}{Zha+10}
+  \field{sortinit}{Z}
+  \field{number}{4}
+  \field{pages}{438\bibrangedash 445}
+  \field{title}{Retinal vessel extraction by matched filter with first-order
+  derivative of Gaussian}
+  \field{volume}{40}
+  \field{journaltitle}{Computers in biology and medicine}
+  \field{year}{2010}
 \endentry
 
 \entry{zhao2015automated}{article}{}

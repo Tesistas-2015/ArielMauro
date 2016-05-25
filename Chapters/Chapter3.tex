@@ -111,6 +111,23 @@ En nuestra b\'usqueda encontramos varios algoritmos matem\'aticos que apuntaban 
 
 \section{Extracci\'on de indicadores}
 
+Intro
+
+\subsection{Matched Filter}
+
+El MF fue propuesto por primera vez en \cite{chaudhuri1989detection} para detectar vasos en imagenes de la retina. Hace uso del conocimiento previo que el corte tranversal de los vasos sanguineos puede ser aproximado a una función de gauss. Por lo tanto, un filtro gausiano puede ser utilizado para encontrar los vasos. MF se define como: 
+
+\begin{displaymath}
+f(x,y)\;=\;\frac1{\sqrt{2\pi s}}exp(-\frac{x^2}{2s^2})-m,\;\;para\;\left|x\right|\leq t.s,\;\left|y\right|\leq L/2
+\end{displaymath}
+
+El (MF) es un metodo simple y efectivo para  la extracción de vasos. Sin embargo, MF no responderá solo a vasos si no también a bordes que no son vasos, por ejemplo los bordes de las manchas y las lesiones . Esto conducirá con frecuencia a la falsa detección de vasos. Zhang et al. \cite{zhang2010retinal} proponen una nueva extensión del enfoque MF, nombrado MF-FDOG, para la detección de vasos de la retina. Lo que propone MF-FDOG es complementar el MF original con la derivada de primer orden gausiana (FDOG). Los vasos son detectados por un umbralado sobre la imagen de la retina a la respuesta del MF , mientras que el umbral es ajustado por la respuesta de la imagen al FDOG. El propósito del método  MF-FDOG  es muy simple, sin embargo, este reduce significativamente las detenciones falsas producidas por el MF original y detecta muchos vasos finos que se perdian.  Tal diferencia implica que la vasos y los bordes de los que no son vasos se pueden distinguir mejor mediante el uso de la MF-FDOG que usando MF. El MF-FDOG se define como:
+
+\begin{displaymath}
+g(x,y)\;=-\;\frac x{\sqrt{2\pi s^3}}exp(-\frac{x^2}{2s^2}),\;\;para\;\left|x\right|\leq t.s,\;\left|y\right|\leq L/2
+\end{displaymath}
+
+
 \section{Entrenamiento y clasificaci\'on basada en indicadores}
 
 
@@ -227,12 +244,12 @@ En ambos casos se relev\'o un rango que se considero suficiente dado que luego d
 	\caption{Resultado utilizando Mediana y Filtro Anisotr\'opico}
 \end{figure}
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.9\textwidth]{./Figures/Results/GER2.png}
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=0.9\textwidth]{./Figures/Results/GER2.png}
 %\label{fig:lightfilter}
-\caption{Imagen de referencia}
-\end{figure}
+%\caption{Imagen de referencia}
+%\end{figure}
 
 %Dada la naturaleza de los experimentos decidimos que la mejor manera de mostrar los resultados era un mapa de %calor(Figura \ref{fig:thermalforanisodiffwithmediana}) y para poder visualizar mejor el comportameniento en la zona %de calor mas intenso aislamos la regi\'on (Figura \ref{fig:thermalforanisodiffwithmedianacentered}) y lo graficamos %en tres dimensiones (Figura \ref{fig:centeredregionthermal}).
 
