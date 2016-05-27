@@ -148,6 +148,30 @@
   \field{year}{2012}
 \endentry
 
+\entry{american2008economic}{article}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Association}{A.}%
+     {American~Diabetes}{A.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Am Diabetes Assoc}%
+  }
+  \strng{namehash}{AAD+1}
+  \strng{fullhash}{AAD+1}
+  \field{labelalpha}{Ass+08}
+  \field{sortinit}{A}
+  \field{number}{3}
+  \field{pages}{596\bibrangedash 615}
+  \field{title}{Economic costs of diabetes in the US in 2007}
+  \field{volume}{31}
+  \field{journaltitle}{Diabetes care}
+  \field{year}{2008}
+\endentry
+
 \entry{azad2013retcam}{article}{}
   \name{author}{7}{}{%
     {{}%
@@ -200,6 +224,50 @@
   \field{volume}{33}
   \field{journaltitle}{Retina}
   \field{year}{2013}
+\endentry
+
+\entry{becker1998image}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Becker}{B.}%
+     {Douglas~E}{D.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Can}{C.}%
+     {Ali}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Turner}{T.}%
+     {James~N}{J.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tanenbaum}{T.}%
+     {Howard~L}{H.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roysam}{R.}%
+     {Badrinath}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{BDE+1}
+  \strng{fullhash}{BDECATJNTHLRB1}
+  \field{labelalpha}{Bec+98}
+  \field{sortinit}{B}
+  \field{number}{1}
+  \field{pages}{105\bibrangedash 118}
+  \field{title}{Image processing algorithms for retinal montage synthesis,
+  mapping, and real-time location determination}
+  \field{volume}{45}
+  \field{journaltitle}{Biomedical Engineering, IEEE Transactions on}
+  \field{year}{1998}
 \endentry
 
 \entry{cepeda2016segmentacion}{article}{}
@@ -311,6 +379,94 @@
   \field{year}{2011}
 \endentry
 
+\entry{foracchia2001extraction}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Foracchia}{F.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grisan}{G.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruggeri}{R.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FMGERA1}
+  \strng{fullhash}{FMGERA1}
+  \field{labelalpha}{FGR01}
+  \field{sortinit}{F}
+  \field{booktitle}{Book Abstracts 2nd International Workshop on Computer
+  Assisted Fundus Image Analysis}
+  \field{title}{Extraction and quantitative description of vessel features in
+  hypertensive retinopathy fundus images}
+  \field{volume}{6}
+  \field{year}{2001}
+\endentry
+
+\entry{fong2004retinopathy}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Fong}{F.}%
+     {Donald~S}{D.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aiello}{A.}%
+     {Lloyd}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gardner}{G.}%
+     {Thomas~W}{T.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {King}{K.}%
+     {George~L}{G.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Blankenship}{B.}%
+     {George}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cavallerano}{C.}%
+     {Jerry~D}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ferris}{F.}%
+     {Fredrick~L}{F.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Klein}{K.}%
+     {Ronald}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Am Diabetes Assoc}%
+  }
+  \strng{namehash}{FDS+1}
+  \strng{fullhash}{FDSALGTWKGLBGCJDFFLKR1}
+  \field{labelalpha}{Fon+04}
+  \field{sortinit}{F}
+  \field{number}{suppl 1}
+  \field{pages}{s84\bibrangedash s87}
+  \field{title}{Retinopathy in diabetes}
+  \field{volume}{27}
+  \field{journaltitle}{Diabetes care}
+  \field{year}{2004}
+\endentry
+
 \entry{fraz2012blood}{article}{}
   \name{author}{7}{}{%
     {{}%
@@ -363,6 +519,200 @@
   \field{volume}{108}
   \field{journaltitle}{Computer methods and programs in biomedicine}
   \field{year}{2012}
+\endentry
+
+\entry{gao2001method}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Gao}{G.}%
+     {Xiaohong}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bharath}{B.}%
+     {Anil}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stanton}{S.}%
+     {Alice}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hughes}{H.}%
+     {Alun}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chapman}{C.}%
+     {Neil}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thom}{T.}%
+     {Simon}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{GX+1}
+  \strng{fullhash}{GXBASAHACNTS1}
+  \field{labelalpha}{Gao+01}
+  \field{sortinit}{G}
+  \field{booktitle}{Image processing, 2001. Proceedings. 2001 International
+  conference on}
+  \field{pages}{881\bibrangedash 884}
+  \field{title}{A method of vessel tracking for vessel diameter measurement on
+  retinal images}
+  \field{volume}{2}
+  \field{year}{2001}
+\endentry
+
+\entry{grisan2003divide}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Grisan}{G.}%
+     {Enrico}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruggeri}{R.}%
+     {Alfredop}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{GERA1}
+  \strng{fullhash}{GERA1}
+  \field{labelalpha}{GR03}
+  \field{sortinit}{G}
+  \field{booktitle}{Engineering in medicine and biology society, 2003.
+  Proceedings of the 25th annual international conference of the IEEE}
+  \field{pages}{890\bibrangedash 893}
+  \field{title}{A divide et impera strategy for automatic classification of
+  retinal vessels into arteries and veins}
+  \field{volume}{1}
+  \field{year}{2003}
+\endentry
+
+\entry{hatanaka2004automated}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Hatanaka}{H.}%
+     {Yuji}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hara}{H.}%
+     {Takeshi}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fujita}{F.}%
+     {Hiroshi}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aoyama}{A.}%
+     {Masaru}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Uchida}{U.}%
+     {Hideya}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yamamoto}{Y.}%
+     {Testuya}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{2}{%
+    {International Society for Optics}%
+    {Photonics}%
+  }
+  \strng{namehash}{HY+1}
+  \strng{fullhash}{HYHTFHAMUHYT1}
+  \field{labelalpha}{Hat+04}
+  \field{sortinit}{H}
+  \field{booktitle}{Medical Imaging 2004}
+  \field{pages}{1621\bibrangedash 1628}
+  \field{title}{Automated analysis of the distributions and geometries of blood
+  vessels on retinal fundus images}
+  \field{year}{2004}
+\endentry
+
+\entry{heneghan2002characterization}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Heneghan}{H.}%
+     {Conor}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Flynn}{F.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {O’Keefe}{O.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cahill}{C.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{HC+1}
+  \strng{fullhash}{HCFJOMCM1}
+  \field{labelalpha}{Hen+02}
+  \field{sortinit}{H}
+  \field{number}{4}
+  \field{pages}{407\bibrangedash 429}
+  \field{title}{Characterization of changes in blood vessel width and
+  tortuosity in retinopathy of prematurity using image analysis}
+  \field{volume}{6}
+  \field{journaltitle}{Medical image analysis}
+  \field{year}{2002}
+\endentry
+
+\entry{hoover2003locating}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hoover}{H.}%
+     {Adam}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goldbaum}{G.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{HAGM1}
+  \strng{fullhash}{HAGM1}
+  \field{labelalpha}{HG03}
+  \field{sortinit}{H}
+  \field{number}{8}
+  \field{pages}{951\bibrangedash 958}
+  \field{title}{Locating the optic nerve in a retinal image using the fuzzy
+  convergence of the blood vessels}
+  \field{volume}{22}
+  \field{journaltitle}{Medical Imaging, IEEE Transactions on}
+  \field{year}{2003}
 \endentry
 
 \entry{hoover2000locating}{article}{}
@@ -499,6 +849,162 @@
   \field{year}{2012}
 \endentry
 
+\entry{klein1995retinal}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Klein}{K.}%
+     {Ronald}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meuer}{M.}%
+     {Stacy~M}{S.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moss}{M.}%
+     {Scot~E}{S.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Klein}{K.}%
+     {Barbara~EK}{B.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Medical Association}%
+  }
+  \strng{namehash}{KR+1}
+  \strng{fullhash}{KRMSMMSEKBE1}
+  \field{labelalpha}{Kle+95}
+  \field{sortinit}{K}
+  \field{number}{11}
+  \field{pages}{1386\bibrangedash 1391}
+  \field{title}{Retinal microaneurysm counts and 10-year progression of
+  diabetic retinopathy}
+  \field{volume}{113}
+  \field{journaltitle}{Archives of Ophthalmology}
+  \field{year}{1995}
+\endentry
+
+\entry{li2004automated}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Li}{L.}%
+     {Huiqi}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chutatape}{C.}%
+     {Opas}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{LHCO1}
+  \strng{fullhash}{LHCO1}
+  \field{labelalpha}{LC04}
+  \field{sortinit}{L}
+  \field{number}{2}
+  \field{pages}{246\bibrangedash 254}
+  \field{title}{Automated feature extraction in color retinal images by a model
+  based approach}
+  \field{volume}{51}
+  \field{journaltitle}{Biomedical Engineering, IEEE Transactions on}
+  \field{year}{2004}
+\endentry
+
+\entry{lee2001costs}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lee}{L.}%
+     {Sue~J}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McCarty}{M.}%
+     {Catherine~A}{C.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Taylor}{T.}%
+     {Hugh~R}{H.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Keeffe}{K.}%
+     {Jill~E}{J.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{LSJ+1}
+  \strng{fullhash}{LSJMCATHRKJE1}
+  \field{labelalpha}{Lee+01}
+  \field{sortinit}{L}
+  \field{number}{4}
+  \field{pages}{186\bibrangedash 192}
+  \field{title}{Costs of mobile screening for diabetic retinopathy: a practical
+  framework for rural populations}
+  \field{volume}{9}
+  \field{journaltitle}{Australian Journal of Rural Health}
+  \field{year}{2001}
+\endentry
+
+\entry{lowell2004measurement}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Lowell}{L.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hunter}{H.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Steel}{S.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Basu}{B.}%
+     {Ansu}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ryder}{R.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kennedy}{K.}%
+     {R~Lee}{R.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{LJ+1}
+  \strng{fullhash}{LJHASDBARRKRL1}
+  \field{labelalpha}{Low+04}
+  \field{sortinit}{L}
+  \field{number}{10}
+  \field{pages}{1196\bibrangedash 1204}
+  \field{title}{Measurement of retinal vessel widths from fundus images based
+  on 2-D modeling}
+  \field{volume}{23}
+  \field{journaltitle}{Medical Imaging, IEEE Transactions on}
+  \field{year}{2004}
+\endentry
+
 \entry{marin2011new}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -565,6 +1071,35 @@
   \field{volume}{25}
   \field{journaltitle}{Medical Imaging, IEEE Transactions on}
   \field{year}{2006}
+\endentry
+
+\entry{massin2000retinopathie}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Massin}{M.}%
+     {Pascale}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Erginay}{E.}%
+     {Ali}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaudric}{G.}%
+     {Alain}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Ed. scientifiques et m{\'e}dicales Elsevier}%
+  }
+  \strng{namehash}{MPEAGA1}
+  \strng{fullhash}{MPEAGA1}
+  \field{labelalpha}{MEG00}
+  \field{sortinit}{M}
+  \field{title}{R{\'e}tinopathie diab{\'e}tique}
+  \field{year}{2000}
 \endentry
 
 \entry{martinez2007segmentation}{article}{}
@@ -908,6 +1443,99 @@
   \field{year}{2011}
 \endentry
 
+\entry{AmericanAcademyofOphthalmologyRetinaPanel}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {San~Francisco}{S.~F.}%
+     {Am. Acad.~Ophthalmo.}{A.~A.~O.}%
+     {}{}%
+     {CA}{C.}}%
+  }
+  \strng{namehash}{SFCAAO1}
+  \strng{fullhash}{SFCAAO1}
+  \field{labelalpha}{SF08}
+  \field{sortinit}{S}
+  \field{title}{American Academy of Ophthalmology Retina Panel, Preferred
+  Practice Pattern Guidelines. Diabetic Retinopathy}
+  \verb{url}
+  \verb http://www.aao.org/ppp
+  \endverb
+  \field{year}{2008}
+\endentry
+
+\entry{shen2001optimal}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Shen}{S.}%
+     {Hong}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roysam}{R.}%
+     {Badrinath}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stewart}{S.}%
+     {Charles~V}{C.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Turner}{T.}%
+     {James~N}{J.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tanenbaum}{T.}%
+     {Howard~L}{H.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{SH+1}
+  \strng{fullhash}{SHRBSCVTJNTHL1}
+  \field{labelalpha}{She+01}
+  \field{sortinit}{S}
+  \field{number}{1}
+  \field{pages}{77\bibrangedash 91}
+  \field{title}{Optimal scheduling of tracing computations for real-time
+  vascular landmark extraction from retinal fundus images}
+  \field{volume}{5}
+  \field{journaltitle}{Information Technology in Biomedicine, IEEE Transactions
+  on}
+  \field{year}{2001}
+\endentry
+
+\entry{taylor2001world}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Taylor}{T.}%
+     {Hugh~R}{H.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Keeffe}{K.}%
+     {Jill~E}{J.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {BMJ Publishing Group Ltd.}%
+  }
+  \strng{namehash}{THRKJE1}
+  \strng{fullhash}{THRKJE1}
+  \field{labelalpha}{TK01}
+  \field{sortinit}{T}
+  \field{number}{3}
+  \field{pages}{261\bibrangedash 266}
+  \field{title}{World blindness: a 21st century perspective}
+  \field{volume}{85}
+  \field{journaltitle}{British Journal of Ophthalmology}
+  \field{year}{2001}
+\endentry
+
 \entry{weickert1999coherence}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -1027,6 +1655,84 @@
   \field{volume}{32}
   \field{journaltitle}{Retina}
   \field{year}{2012}
+\endentry
+
+\entry{wild2004global}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Wild}{W.}%
+     {Sarah}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roglic}{R.}%
+     {Gojka}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Green}{G.}%
+     {Anders}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sicree}{S.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {King}{K.}%
+     {Hilary}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Am Diabetes Assoc}%
+  }
+  \strng{namehash}{WS+1}
+  \strng{fullhash}{WSRGGASRKH1}
+  \field{labelalpha}{Wil+04}
+  \field{sortinit}{W}
+  \field{number}{5}
+  \field{pages}{1047\bibrangedash 1053}
+  \field{title}{Global prevalence of diabetes estimates for the year 2000 and
+  projections for 2030}
+  \field{volume}{27}
+  \field{journaltitle}{Diabetes care}
+  \field{year}{2004}
+\endentry
+
+\entry{youssif2008optic}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Youssif}{Y.}%
+     {Aliaa Abdel-Haleim Abdel-Razik}{A.~A.-H. A.-R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ghalwash}{G.}%
+     {Atef~Zaki}{A.~Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ghoneim}{G.}%
+     {Amr Ahmed Sabry Abdel-Rahman}{A.~A. S. A.-R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{YAAHARGAZGAASAR1}
+  \strng{fullhash}{YAAHARGAZGAASAR1}
+  \field{labelalpha}{YGG08}
+  \field{sortinit}{Y}
+  \field{number}{1}
+  \field{pages}{11\bibrangedash 18}
+  \field{title}{Optic disc detection from normalized digital fundus images by
+  means of a vessels' direction matched filter}
+  \field{volume}{27}
+  \field{journaltitle}{Medical Imaging, IEEE Transactions on}
+  \field{year}{2008}
 \endentry
 
 \entry{zhang2010retinal}{article}{}
