@@ -113,6 +113,15 @@ En nuestra b\'usqueda encontramos varios algoritmos matem\'aticos que apuntaban 
 
 Intro
 
+\subsection{Fringe}
+
+
+Este trabajo se centra principalmente en definir un m\’etodo de mejora de los vasos que sea independiente de los tamaños de los mismos. Muchas veces encontramos m\’etodos de mejoras de imagen que al variar los parametros podemos mejorar la detecci\’on de vasos pequeños en detrimento de la detecci\’on de vasos grandes y viceversa.
+
+B\’asicamente encontramos en este paper la intenci\’on de determinar la forma de mejorar los vasos independientemente de su tamaño y regi\’on. Para lograrlo, este trabajo plantea utilizar una escala de medidas que var\’ie en cierto rango.
+
+Utilizan informacion local al pixel para detectar si es una region de vaso, luego aplican una escala de medida no fija que permite detectar vasos pequeños y vasos grandes, luego realizando una busqueda sobre las matrices sobre el mejor valor deteriminan la clasificacion del pixel entre vaso o no.
+
 \subsection{Matched Filter}
 
 El MF fue propuesto por primera vez en \cite{chaudhuri1989detection} para detectar vasos en imagenes de la retina. Hace uso del conocimiento previo que el corte tranversal de los vasos sanguineos puede ser aproximado a una función de gauss. Por lo tanto, un filtro gausiano puede ser utilizado para encontrar los vasos. MF se define como: 
